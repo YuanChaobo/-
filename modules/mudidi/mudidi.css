@@ -1,0 +1,233 @@
+@charset "utf-8";
+body{
+	background: #fafafa;
+}
+*{font-size: 0.05rem;}
+.mudidi{
+	width: 100%;
+}
+.mudidi header{
+	width: 100%;
+	height: 0.55rem;
+	line-height: 0.55rem;
+	font-size: 0.18rem;
+	color: #333;
+	text-align: center;
+	background: #fff;
+	box-shadow: 0 5px 5px #eee;
+	margin-bottom: 0.1rem;
+	position: fixed;
+	top: 0;
+	z-index: 2;
+}
+.mudidi #search{
+	margin-top: 0.65rem;
+	width: 100%;
+	text-align: center;
+	background: #fff;
+	padding-bottom: 0.1rem;
+}
+.mudidi #search>div{
+	width: 95%;
+    height: 0.35rem;
+    line-height: 0.35rem;
+    text-align: center;
+    border: 1px solid #eee;
+    margin: 0 auto;
+}
+.mudidi #search>div>img{
+	height: 60%;
+    vertical-align: middle;
+    margin-right: 0.05rem;
+}
+.mudidi #search>div>span{
+	font-size: 0.14rem;
+    color: #9E9E9E;
+    letter-spacing: 0.01rem;
+}
+.mudidi #main{
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 0.75rem;
+}
+.mudidi #main>.left{
+	width: 22%;
+	float: left;
+	overflow: scroll;
+}
+.mudidi #main>.left>ul{
+	width: 100%;
+}
+.mudidi #main>.left>ul>li{
+	width: 100%;
+	text-align: center;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	font-size: 0.15rem;
+	border-bottom: 1px solid #EEEEEE;
+	position: relative;
+}
+.mudidi #main>.left>ul>li>span{
+	display: inline-block;
+    border: 0.07rem solid rgba(0,0,0,0);
+    border-left: 0.1rem solid #d30775;
+	position: absolute;
+	left: 0;
+	top: 35%;
+	display: none;
+}
+.mudidi #main>.left>ul .change_color{
+	background: #fff;
+	color: #D30775;
+}
+.mudidi #main>.left>ul .display{
+	display: block;
+}
+.mudidi #main>.right{
+	width: 76%;
+	float: right;
+	overflow: scroll;
+}
+.mudidi #main>.right>div{
+	width: 100%;
+	background: #fff;
+	padding-top: 0.05rem;
+	margin-top: 0.15rem;
+}
+.mudidi #main>.right>div:first-of-type{
+	margin: 0;
+}
+.mudidi #main>.right>div>p{
+	margin-left: 0.02rem;
+	padding: 0 0.03rem;
+	font-size: 0.14rem;
+	border-left: 0.05rem solid #D30775;
+	letter-spacing: 0.01rem;
+}
+.mudidi #main>.right>div>div{
+	width: 100%;
+	display: inline-block;
+	width: 47%;
+	margin: 0.05rem 0.05rem 0 0;
+	position: relative;
+}
+.mudidi #main>.right>div>div>img{
+	width: 100%;
+}
+.mudidi #main>.right>div>div>span{
+	padding: 0.01rem 0.15rem;
+    font-size: 0.12rem;
+    color: #fff;
+    background: #FB8C00;
+    border-radius: 0 0 0.05rem 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.mudidi #main>.right>div>div>.p1{
+	font-size: 0.16rem;
+    color: #fff;
+    position: absolute;
+    bottom: 0.25rem;
+    left: 0.03rem;
+}
+.mudidi #main>.right>div>div>.p2{
+	font-size: 0.1rem;
+    color: #fff;
+    position: absolute;
+    bottom: 0.08rem;
+    left: 0.03rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

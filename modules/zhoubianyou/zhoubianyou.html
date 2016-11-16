@@ -1,0 +1,161 @@
+
+	<div class="zhoubianyou">
+	  <div id="myTop">	  	
+		<header class="top">
+			<div class="left" ng-click="getback()">
+				<img src="images/jdmc_topleft.png">
+			</div>
+			<div class="center">
+				<p>周边游</p>
+			</div>
+			<div class="right">
+				<img src="images/jdmc_topRight1.png" class="img2">
+				<img src="images/jdmc_topRight2.png" class="img1">
+			</div>
+		</header>
+		<div id="soubig">			
+			<div class="sou">
+				<span class="sou_1">北京</span> &nbsp;&nbsp;| &nbsp;&nbsp;<img src="images/jdmc_fdj.png"> <span class="sou_2">常州恐龙园</span>
+			</div>
+		</div>
+	  </div>
+	  <div id="banner">
+	  	<img src="images/zby_banner1.jpg">
+	  </div>
+	  <div id="main">
+	  	<div class="main_1">
+	  		<ul>
+	  			<li class="li1">
+	  				<p>TOP&nbsp;目的地</p>
+	  			</li>
+	  			<li class="li2">
+	  				<p>TOP&nbsp;Brand酒店</p>
+	  			</li>
+	  		</ul>
+	  	</div>
+	  	<div class="main_2">
+	  		<ul>
+	  			<li>
+	  				<img src="images/zby_main1.jpg">
+	  				<div class="lidiv">
+	  					<p>上海</p>
+	  					<p>体验魔都风情</p>
+	  				</div>
+	  			</li>
+	  			<li>
+	  				<img src="images/zby_main1.jpg">
+	  				<div class="lidiv">
+	  					<p>上海</p>
+	  					<p>体验魔都风情</p>
+	  				</div>
+	  			</li>
+	  			<li>
+	  				<img src="images/zby_main1.jpg">
+	  				<div class="lidiv">
+	  					<p>上海</p>
+	  					<p>体验魔都风情</p>
+	  				</div>
+	  			</li>
+	  			<li>
+	  				<img src="images/zby_main1.jpg">
+	  				<div class="lidiv">
+	  					<p>上海</p>
+	  					<p>体验魔都风情</p>
+	  				</div>
+	  			</li>
+	  			<li>
+	  				<img src="images/zby_main1.jpg">
+	  				<div class="lidiv">
+	  					<p>上海</p>
+	  					<p>体验魔都风情</p>
+	  				</div>
+	  			</li>
+	  			<li>
+	  				<img src="images/zby_main1.jpg">
+	  				<div class="lidiv">
+	  					<p>上海</p>
+	  					<p>体验魔都风情</p>
+	  				</div>
+	  			</li>
+	  		</ul>
+	  	</div>
+	  	<div class="main_3">
+	  		<ul>
+	  			<li>
+	  				<div class="ultop"><img src="images/zby_main2.png"></div>
+	  				<div>畅泡温泉</div>
+	  			</li>
+	  			<li>
+	  				<div class="ultop"><img src="images/zby_main2.png"></div>
+	  				<div>畅泡温泉</div>
+	  			</li>
+	  			<li>
+	  				<div class="ultop"><img src="images/zby_main2.png"></div>
+	  				<div>畅泡温泉</div>
+	  			</li>
+	  			<li>
+	  				<div class="ultop"><img src="images/zby_main2.png"></div>
+	  				<div>畅泡温泉</div>
+	  			</li>
+	  			<li>
+	  				<div class="ultop"><img src="images/zby_main2.png"></div>
+	  				<div>畅泡温泉</div>
+	  			</li>
+	  			<li>
+	  				<div class="ultop"><img src="images/zby_main2.png"></div>
+	  				<div>畅泡温泉</div>
+	  			</li>
+	  			<li>
+	  				<div class="ultop"><img src="images/zby_main2.png"></div>
+	  				<div>畅泡温泉</div>
+	  			</li>
+	  			<li>
+	  				<div class="ultop"><img src="images/zby_main2.png"></div>
+	  				<div>畅泡温泉</div>
+	  			</li>
+	  		</ul>
+	  	</div>
+	  	<div class="main_4">
+	  	 <ul>
+	  		<li>
+	  			<img src="images/zby_fire.png">
+	  			<p>酒+景</p>
+	  		</li>
+	  		<li>
+	  			<img src="images/zby_fire.png">
+	  			<p>酒+景</p>
+	  		</li>
+	  		<li>
+	  			<img src="images/zby_fire.png">
+	  			<p>酒+景</p>
+	  		</li>
+	  		<li>
+	  			<img src="images/zby_fire.png">
+	  			<p>酒+景</p>
+	  		</li>
+	  		<li>
+	  			<img src="images/zby_fire.png">
+	  			<p>酒+景</p>
+	  		</li>
+	  		<li>
+	  			<img src="images/zby_fire.png">
+	  			<p>酒+景</p>
+	  		</li>
+	  	  </ul>
+	  	</div>
+	  <div id="main_mian">	  	
+	  	<div class="main_5" ng-repeat = 'x in arr'>
+	  		<div class="main5_top">
+	  			<img src={{x.middleImage}}>
+	  		</div>
+	  		<div class="main5_bot">
+	  			<h3>{{x.productName}}</h3>
+	  			<p>{{x.desc}}</p>
+	  		</div>
+	  	</div>
+	  </div>
+	 </div>
+	  <div id="footer">
+	  	
+	  </div>
+	</div>

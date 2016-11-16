@@ -1,0 +1,365 @@
+.guonieyou{
+	background: #f1f1f1;
+	margin-bottom: 0.55rem;
+}
+.guonieyou .top{
+	position: fixed;
+	background: #fff;
+	z-index: 999;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 0.45rem;
+	font-size: 0;
+	border-bottom: 1px solid #bbb;
+}
+.guonieyou .top .left{
+	float: left;
+	width: 0.35rem;
+	text-align: center;
+	height: 0.45rem;
+	line-height: 0.45rem;
+}
+.guonieyou .top .left img{
+	width: 0.1rem;
+	margin-top: 0.14rem;
+}
+.guonieyou .top .center{
+	float: left;
+	font-size: 0.19rem;
+	width:74%;
+	line-height: 0.45rem;
+	
+}
+.guonieyou .top .center p{
+	padding-left: 1.3rem;
+	color: #000;
+	word-break: break-all;
+}
+.guonieyou .top .right{
+	float: right;
+	height: 0.45rem;
+}
+.guonieyou .top .right img{
+	width: 0.23rem;
+	margin-top: 0.1rem;
+}
+.guonieyou .top .right .img2{
+	margin-right: 0.1rem;
+}
+.guonieyou .top .right .img1{
+	margin-right: 0.1rem;
+}
+.guonieyou #soubig{
+	margin-top: 0.46rem;
+	width: 100%;
+	height: 0.4rem;
+}
+.guonieyou .sou{
+	background: #fff;
+	width: 3.95rem;
+	height: 0.3rem;
+	font-size: 0.16rem;
+	margin-left: 0.1rem;
+	margin-top: 0.1rem;
+	border:1px solid #ddd;
+	border-radius: 3px;
+}
+.guonieyou .sou .sou_1{
+	display: inline-block;
+	color: #d30775;
+	line-height: 0.3rem;
+	margin-bottom: 0.05rem;
+	position: relative;
+	font-size: 0.14rem;
+	padding-left: 0.1rem;
+	padding-right: 0.15rem;
+}
+.guonieyou .sou .sou_1::after{
+	content: "";
+    width: 0.05rem;
+    height: 0.05rem;
+    border-top: 1px solid #d30775;
+    border-right: 1px solid #d30775;
+    transform: rotate(135deg);
+    position: absolute;
+    top: .09rem;
+    right: -0.01rem;
+}
+.guonieyou .sou img{
+	width: 0.15rem;
+}
+.guonieyou .sou .sou_2{
+	font-size: 0.15rem;
+	padding-left: 0.1rem;
+	color: #ccc;
+}
+.guonieyou #banner{
+	width: 100%;
+	height: 1.722rem;
+}
+.guonieyou #banner img{
+	width: 100%;
+}
+.guonieyou #main .main1{
+	overflow: hidden;
+	font-size: 0;
+	width: 100%;
+}
+.guonieyou #main .main1 .u1{
+	overflow: hidden;
+}
+.guonieyou #main .main1 .u1 li{
+	position: relative;
+	font-size: 0.18rem;
+	height: 0.44rem;
+	line-height: 0.44rem;
+	text-align: center;
+	float: left;
+	width: 50%;
+}
+.guonieyou #main .main1 .u1 li:hover{
+	background: #fff;
+	color: #d30775;
+	border-bottom: 1px solid #d30775;
+}
+.guonieyou #main .main1 .u1 .li1 p::before{
+	content: "";
+    display: block;
+    width: .4rem;
+    height: .4rem;
+    position: absolute;
+    top: 0.1rem;
+    left: 0.35rem;
+    background: url(../../images/gny_dt.png) no-repeat;
+    background-size: .25rem;
+}
+.guonieyou #main .main1 .u1 .li2 p::before{
+	content: "";
+    display: block;
+    width: .4rem;
+    height: .4rem;
+    position: absolute;
+    top: 0.1rem;
+    left: 0.35rem;
+    background: url(../../images/gny_fj.png) no-repeat;
+    background-size: .25rem;
+}
+.guonieyou #main .main1 .u2{
+	background: #fff;
+	overflow: hidden;
+	width: 100%;
+}
+.guonieyou #main .main1 .u2 li p{
+	color: #000;
+}
+.guonieyou #main .main1 .u2 li span{
+	background: url(../../images/gny_hot.png) no-repeat center;
+	padding: 0.05rem;
+	color: #fff;
+	margin-right: 0.1rem;
+}
+.guonieyou #main .main1 .u2 li{
+	border-bottom: 1px solid #ccc;
+	font-size: 0.14rem;
+	text-align: center;
+	height: 0.44rem;
+	line-height: 0.44rem;
+	float: left;
+	width: 25%;
+	border-right: 1px solid #ccc;
+	color: #000;
+}
+.guonieyou #main .main1 .u2 li a{
+	color: #d30775
+}
+.guonieyou #main .main2{
+	font-size: 0;
+	background: #fff;
+	width: 100%;
+}
+.guonieyou #main .main2>p{
+	font-size: 0.16rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	border-bottom: 1px solid #aaa;
+	padding-left: 0.1rem;
+}
+.guonieyou #main .main2 ul{
+	margin-top: 0.1rem;
+	white-space: nowrap;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	padding-bottom: 0.15rem;
+}
+.guonieyou #main .main2 ul li{
+	margin-left: 0.1rem;
+	width:1.57rem;
+	font-size: 0.12rem;
+	position: relative;
+	display: inline-block;
+	border:1px solid #aaa;
+}
+.guonieyou #main .main2 ul li:nth-of-type(1){
+	margin-left: 0.1rem;
+}
+.guonieyou #main .main2 ul li img{
+	width: 100%;
+}
+.guonieyou #main .main2 ul li p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-height: 0.2rem;
+    padding-bottom: 0.05rem;
+}
+.guonieyou #main .main2 ul li p span{
+	font-size: 0.2rem;
+	color: #d30775;
+}
+.guonieyou #main .main3{
+	width: 100%;
+	height: 2.68rem;
+	padding: 0.1rem;
+	margin-top: 0.1rem;
+	font-size: 0;
+	background: #fff;
+}
+.guonieyou #main .main3_1{
+	overflow: hidden;
+}
+.guonieyou #main .main3_1Left{
+	float: left;
+	width: 1.38rem;
+	height: 1.6rem;
+}
+.guonieyou #main .main3_1Left img{
+	width: 100%;
+}
+.guonieyou #main .main3_1Right{
+	float: left;
+	width: 2.52rem;
+	height: 1.6rem;
+}
+.guonieyou #main .main3_1Right span{
+	display: inline-block;
+	width: 1.16rem;
+	height: 0.76rem;
+	margin-left: 0.1rem;
+}
+.guonieyou #main .main3_1Right .span2{
+	margin-left: 0.1rem;
+}
+.guonieyou #main .main3_1Right span img{
+	width: 100%;
+	height: 100%;
+}
+.guonieyou #main .main3_1RTop{
+	width: 2.48rem;
+	height: 0.77rem;
+	margin-top: 0.1rem;
+	margin-left: 0.1rem;
+}
+.guonieyou #main .main3_1RTop img{
+	width: 100%;
+}
+.guonieyou #main .main3_2{
+	margin-top: 0.1rem;
+}
+.guonieyou #main .main3_2 span{
+	display: inline-block;
+}
+.guonieyou #main .main3_2 .sp1{
+	width: 1.37rem;
+	height: 0.77rem;
+}
+.guonieyou #main .main3_2 .sp1 img{
+	width: 100%;
+	height: 100%;
+}
+.guonieyou #main .main3_2 .sp2{
+	margin-left: 0.08rem;
+	width: 2.48rem;
+	height: 0.77rem;
+}
+.guonieyou #main .main3_2 .sp2 img{
+	width: 100%;
+	height: 100%;
+}
+.guonieyou #main .main4{
+	width: 100%;
+	background: #fff;
+	margin-top: 0.1rem;
+}
+.guonieyou #main .main4 .ul1{
+	overflow: hidden;
+}
+.guonieyou #main .main4 .ul1 li{
+	height: 0.45rem;
+	font-size: 0.16rem;
+	float: left;
+	width: 33%;
+	text-align: center;
+	line-height: 0.45rem;
+	padding: 0 0.05rem;
+}
+.guonieyou #main .main4 .ul1 .cilck_style{
+	background-color: #d30775;
+	color: #fff;
+	border-radius: 15px;
+}
+.guonieyou #main .main4 .ul2 li{
+	position: relative;
+	margin-top: 0.1rem;
+}
+.guonieyou #main .main4 .ul2 li .top1{
+	width: 100%;
+	height: 1.82rem;
+}
+.guonieyou #main .main4 .ul2 li .top1 img{
+	width: 100%;
+	height: 100%;
+}
+.guonieyou #main .main4 .ul2 li .bot{
+	font-size: 0.18rem;
+}
+.guonieyou #main .main4 .ul2 li .spa1{
+	position: absolute;
+	left: 0.1rem;
+	top: 0.1rem;
+	font-size: 0.12rem;
+	color: #fff;
+	padding: 0.08rem;
+	background: #000;
+	opacity: 0.5;
+}
+.guonieyou #main .main4 .ul2 li .spa2{
+	position: absolute;
+    right: 0.0rem;
+    top: 1.1rem;
+    font-size: 0.2rem;
+    color: #fff;
+    padding: 0.02rem 0.05rem;
+    background: #ff7201;
+    border-radius: 0.05rem 0 0 0.05rem;
+}
+.guonieyou #main .main4 .ul2 li h3{
+	margin-top: 0.05rem;
+	margin-bottom: 0.05rem;
+	color: #333;
+	padding-left: 0.1rem;
+	font-size: 0.16rem;
+	font-weight: normal;
+}
+.guonieyou #main .main4 .ul2 li p{
+	padding-left: 0.1rem;
+	padding-right: 0.1rem;
+	color: #aaa;
+	font-size: 0.14rem;
+}
+.guonieyou #footer{
+	width: 100%;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	text-align: center;
+	font-size: 0.16rem;
+}

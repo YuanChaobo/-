@@ -1,0 +1,111 @@
+
+		<div class="baitiao">
+			<header>
+				<img class="lazy-img" src="./images/loading.png" data-src="./images/mineshoucang_sanjiao.png" ng-click="dianji()"/>
+				<span>白条激活1/3</span>
+			</header>
+			<div>
+			  <form   name="myForm" novalidate>
+				<table>
+					<tr>
+						<td>
+							<img class="lazy-img" src="./images/loading.png" data-src="./images/baitiaojihuo.png" />
+							<span>用户信息</span>
+						</td>
+					</tr>
+					<tr>
+						<td>申请人</td>
+						<td>
+							<input type="text"  ng-model="user" name="user" required placeholder="请输入申请人姓名" pattern="^[\u4E00-\u9FA5]{2,4}$" />
+							<span style="color:red;font-size: 0.10rem;" ng-show="myForm.user.$dirty && myForm.user.$invalid">
+								<span ng-show="myForm.user.$error.required">用户名必填。</span>
+								<span ng-show="myForm.user.$error.pattern">输入格式不正确</span>
+							</span>
+						 </td>
+					</tr>
+					<tr>
+						<td>性别</td>
+						<td>
+							<select/>
+								<option>未选择</option>
+								<option>男</option>
+								<option>女</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>姓名拼音</td>
+						<td>
+							<input type="text" placeholder="请输入姓名拼音" pattern="^[a-zA-Z]{4,30}$" name="spell" required ng-model="spell"/>
+							<span ng-show="myForm.spell.$dirty && myForm.spell.$invalid">
+								<span ng-show="myForm.spell.$error.required">必填</span>
+								<span ng-show="myForm.spell.$error.pattern">只能是英文字母</span>
+							</span>
+						</td>
+					</tr>
+					<tr>
+						<td>身份证号</td>
+						<td>
+						  <input type="text"
+					           required
+					           ng-required="true"
+					           pattern="^(\d{15}$)|^(\d{18}$)|^(\d{17}(\d|X|x)$)"
+					           ng-change="change()"
+					           ng-trim="false"
+					           name="cellphone"
+					           ng-model="cellphone"
+					           placeholder="请输入身份证号" 
+					       />
+						<span style="color:red;font-size: 0.12rem;" ng-show="myForm.cellphone.$dirty && myForm.cellphone.$invalid">
+								<span ng-show="myForm.cellphone.$error.required">身份证必填。</span>
+								<span ng-show="myForm.cellphone.$error.pattern">身份证不正确</span>
+							</span>
+						</td>
+					</tr>
+					<tr>
+						<td>手机号</td>
+						<td>
+							<input 
+									type="number" 
+									placeholder="请输入手机号"
+									pattern="^1[34578]\d{9}$" 
+									name="mobilephone" 
+									required  
+									ng-model="mobilephone"
+							/>
+							<span ng-show="myForm.mobilephone.$dirty && myForm.mobilephone.$invalid">
+								<span ng-show="myForm.mobilephone.$error.required">手机号必填。</span>
+								<span ng-show="myForm.mobilephone.$error.pattern">手机号不正确</span>
+							</span>
+						</td>
+					</tr>
+					<tr>
+						<td>教育程度</td>
+						<td>
+							<select>
+								<option>未选择</option>
+								<option>大专</option>
+								<option>本科</option>
+								<option>博士</option>
+								<option>硕士</option>
+								<option>研究生</option>
+								<option>博士后</option>
+							</select>
+						</td>
+					</tr>
+				</table>
+			  </form>
+			</div>
+			<p class="p1">同意以下条款：</p>
+			<p class="p2">
+				<span class="s1">√</span>
+				<span class="s2">《新易贷商户专享贷款合同(驴妈妈旅游金专用)》</span>
+			</p>
+			<p class="p2">
+				<span class="s1">√</span>
+				<span class="s2">《新易贷商户专享贷款合同(驴妈妈旅游金专用)》</span>
+			</p>
+			<div class="submit">
+				<input type="submit" ng-disabled="myForm.user.$dirty && myForm.user.$invalid ||myForm.spell.$dirty && myForm.spell.$invalid || myForm.cellphone.$dirty && myForm.cellphone.$invalid || myForm.mobilephone.$dirty && myForm.mobilephone.$invalid">
+			</div>
+		</div>

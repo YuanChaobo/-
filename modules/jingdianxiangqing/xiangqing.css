@@ -1,0 +1,516 @@
+@charset "UTF-8";
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+/*详情*/
+.mod_details{
+	font-size: 0.16rem;
+	background: #f8f8f8;
+	padding-bottom: 50px;
+}
+.mod_details .Disney{
+	font-size:  0.20rem;
+	font-weight: 700;
+	width: 100%;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	text-align: center;
+	position: relative;
+}
+.mod_details .Disney::before{
+	content: "";
+	width: 0.14rem;
+	height: 0.14rem;
+	position: absolute;
+	left: 0.2rem;
+	top: 0.12rem;
+	border-left: 1px solid #d30775;
+	border-top: 1px solid #d30775;
+	transform:rotate(-45deg);
+}
+.mod_details .Disney .img1{
+	position: absolute;
+	right:  0.8rem;
+	top: 0.08rem;
+	width: 0.25rem;
+}
+.mod_details .Disney .img2{
+	position: absolute;
+	right: 0.45rem;
+	top: 0.08rem;
+	width: 0.25rem;
+}
+.mod_details .Disney .img3{
+	position: absolute;
+	right: 0.05rem;
+	top: 0.08rem;
+	width: 0.35rem;
+}
+.mod_details .picture{
+	width: 100%;
+	position: relative;
+}
+.mod_details .picture img{
+	width: 100%;
+}
+.mod_details .picture .picture_div{
+	color: #f1f1f1;
+	font-size: 0.14rem;
+	font-weight: 700;
+	position: absolute;
+	left: 0.1rem;
+	bottom: 0.1rem;
+}
+.mod_details .picture .picture_div  .picture_div_span span{
+	float: left;
+	width: 1rem;
+	height: 0.2rem;
+	background:url("../../images/star.png") no-repeat 0rem -171px;
+	background-size: 100%;
+}
+.mod_details .dujiaqu p{
+	height: 0.4rem;
+	line-height: 0.4rem;
+	position: relative;
+	background: #fff;
+}
+.mod_details .dujiaqu p::after{
+	content: "";
+	width: 0.14rem;
+	height: 0.14rem;
+	position: absolute;
+	right: 0.1rem;
+	top: 0.13rem;
+	border-top: 1px solid #aaa;
+	border-right: 1px solid #aaa;
+	transform:rotate(45deg);
+}
+.mod_details .dujiaqu p span{
+	float: left;
+	width: 3.3rem;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.mod_details .dujiaqu p img{
+	float: left;
+	width: 0.16rem;
+	margin: 0.1rem 0.1rem 0 0.1rem;
+}
+
+/*订票须知*/
+.mod_details .remarkOn{
+	margin-top: 10px;
+}
+.mod_details .remarkOn .remarkOn_p1{
+	width: 100%;
+	overflow:hidden;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	background: #fff;
+}
+.mod_details .remarkOn .remarkOn_p1 span{
+	float: left;
+	width: 33.3%;
+	text-align: center;
+}
+.mod_details .remarkOn .remarkOn_p2{
+	height: 0.4rem;
+	line-height: 0.4rem;
+	background: #fff;
+}
+.mod_details .remarkOn .remarkOn_p2 img{
+	width: 0.3rem;
+	margin:0 0.1rem 0 0.1rem;
+}
+.mod_details .remarkOn .remarkOn_div{
+	position: relative;
+}
+.mod_details .remarkOn .remarkOn_div>p{
+	font-size: 0.14rem;
+	height: 0.6rem;
+	padding: 0.13rem 0 0 0.15rem;
+}
+.mod_details .remarkOn .remarkOn_div>p img{
+	position: absolute;
+	width: 0.3rem;
+	top: 0;
+	left: 0;
+}
+.mod_details .remarkOn .remarkOn_div .remarkOn_div_div1{
+	height: 0.8rem;
+	font-size: 0.14rem;
+}
+.mod_details .remarkOn .remarkOn_div .remarkOn_div_div1 p{
+	height: 0.4rem;
+	line-height: 0.4rem;
+	margin-left: 0.15rem;
+}
+.mod_details .remarkOn .remarkOn_div .remarkOn_div_div1 .div1_p1{
+	color: #5598dc;
+}
+.mod_details .remarkOn .remarkOn_div .remarkOn_flotation{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	overflow:hidden;
+	font-size: 0.14rem;
+}
+.mod_details .remarkOn .remarkOn_div .remarkOn_flotation .flotation_div{
+	float: left;
+	margin-top: 0.3rem;
+}
+.mod_details .remarkOn .remarkOn_div .remarkOn_flotation .flotation_div .flotation_p1 span{
+	font-size: 0.2rem;
+	color: #d30775;
+}
+.mod_details .remarkOn .remarkOn_div .remarkOn_flotation .flotation_div .flotation_p2{
+	text-decoration: line-through;
+}
+.mod_details .remarkOn .remarkOn_div .remarkOn_flotation .flotation_div1{
+	float: right;
+	width: 0.6rem;
+	text-align: center;
+	margin:0.1rem 0.1rem;
+}
+.mod_details .remarkOn .remarkOn_div .remarkOn_flotation .flotation_div1 .div1_p1{
+	height: 0.4rem;
+	font-size: 0.16rem;
+	line-height: 0.4rem;
+	color: #fff;
+	background: #d30775;
+	border-top-right-radius: 10%;
+	border-top-left-radius: 10%;
+}
+.mod_details .remarkOn .remarkOn_div .remarkOn_flotation .flotation_div1 .div1_p2{
+	height: 0.3rem;
+	line-height: 0.3rem;
+	border:1px solid #d30775;
+	font-size: 0.12rem;
+	color: #d30775;
+}
+.mod_details .buyticket .buyticket_li>p{
+	width: 100%;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	background: #fff;
+	position: relative;
+	color: #666;
+}
+.mod_details .buyticket .buyticket_li>p img{
+	float: left;
+	width: 0.3rem;
+	margin : 0.1rem 0.1rem;
+}
+.mod_details .buyticket .buyticket_li>p::after{
+	content: "";
+	width: 0.14rem;
+	height: 0.14rem;
+	position: absolute;
+	right: 0.2rem;
+	top: 0.12rem;
+	border-left: 1px solid #d30775;
+	border-top: 1px solid #d30775;
+	transform:rotate(-136deg);
+}
+.mod_details .buyticket .buyticket_li:hover .buyticket_div{
+	display: block;
+}
+.mod_details .buyticket .buyticket_li .buyticket_div{
+	width: 100%;
+	font-size: 0.14rem;
+	color: #666;
+	margin-top: 3px;
+	display: none;
+}
+.mod_details .buyticket .buyticket_li .buyticket_div>p{
+	height: 0.3rem;
+	line-height: 0.3rem;
+	margin-left: 0.1rem;
+}
+.mod_details .buyticket .buyticket_li .buyticket_div .buyticket_div_d{
+	position: relative;
+	height: 0.8rem;
+	padding-left: 0.1rem;
+}
+.mod_details .buyticket .buyticket_li .buyticket_div .buyticket_div_d>p{
+	height: 0.4rem;
+	line-height: 0.4rem;
+}
+.mod_details .buyticket .buyticket_li .buyticket_div .buyticket_div_d .buyticket_p1{
+	height: 0.4rem;
+}
+.mod_details .buyticket .buyticket_li .buyticket_div .buyticket_div_d .buyticket_p1 span{
+	display: block;
+	font-size: 0.12rem;
+	float: left;
+	border:1px solid #d30775;
+	color: #d30775;
+	padding:0 0.05rem;
+	margin-right: 0.1rem;
+}
+.mod_details .buyticket .buyticket_li .buyticket_div .remarkOn_flotation{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.mod_details .buyticket .buyticket_li .buyticket_div .remarkOn_flotation .flotation_div{
+	float: left;
+	margin-top: 0.3rem;
+}
+.mod_details .buyticket .buyticket_li .buyticket_div .remarkOn_flotation .flotation_div .flotation_p1 span{
+	font-size: 0.2rem;
+	color: #d30775;
+}
+.mod_details .buyticket .buyticket_li .buyticket_div .remarkOn_flotation .flotation_div .flotation_p2{
+	text-decoration: line-through;
+}
+.mod_details .buyticket .buyticket_li .buyticket_div .remarkOn_flotation .flotation_div1{
+	float: right;
+	text-align: center;
+	width: 0.6rem;
+	text-align: center;
+	margin:0.1rem 0.1rem;
+}
+.mod_details .buyticket .buyticket_li .buyticket_div .remarkOn_flotation .flotation_div1 .div1_p1{
+	height: 0.4rem;
+	line-height: 0.4rem;
+	font-size: 0.16rem;
+	background: #d30775;
+	color: #fff;
+	background: #d30775;
+	border-top-right-radius: 10%;
+	border-top-left-radius: 10%;
+}
+.mod_details .buyticket .buyticket_li .buyticket_div .remarkOn_flotation .flotation_div1 .div1_p2{
+	height: 0.3rem;
+	line-height: 0.3rem;
+	border:1px solid #d30775;
+	font-size: 0.12rem;
+	color: #d30775;
+}
+.mod_details .combo{
+	width: 100%;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	background: #fff;
+	margin: 8px 0;
+	color: #666;
+}
+.mod_details .combo img{
+	float: left;
+    width: 0.3rem;
+    margin: 0.1rem 0.1rem;
+}
+.mod_details .combo p{
+	float: right;
+	font-size: 0.14rem;
+	margin-right: 0.3rem;
+	color: #d30775;
+}
+.mod_details .combo p span{
+	font-size: 0.2rem;
+}
+/*满意度*/
+.mod_details .satisfaction{
+	background: #fff;
+}
+.mod_details .satisfaction .satisfaction_p{
+	height: 0.5rem;
+	line-height: 0.5rem;
+	color: #666;
+}
+.mod_details .satisfaction .satisfaction_p img{
+	float: left;
+    width: 0.25rem;
+    margin: 0.15rem 0.1rem;
+}
+.mod_details .satisfaction .satisfaction_p span{
+	color: #d30775;
+	margin-right: 0.2rem;
+}
+.mod_details .satisfaction .satisfaction_ul{
+	overflow: hidden;
+	width: 100%;
+}
+.mod_details .satisfaction .satisfaction_ul li{
+	float: left;
+	width: 22%;
+	height: 0.3rem;
+	line-height: 0.3rem;
+	margin-left: 2.4%;
+	text-align: center;
+	border:1px solid #999;
+	color: #999;
+}
+/*满意度信息*/
+.mod_details .user{
+	background: #fff;
+}
+.mod_details .user .user_p1{
+	height: 0.3rem;
+	line-height: 0.3rem;
+	color: #fff;
+	font-size: 0.15rem;
+}
+.mod_details .user .user_p1 .p1_span1{
+	color: #d30775;
+	margin-left: 0.1rem;
+}
+.mod_details .user .user_p1>p{
+	float: right;
+	margin-right: 0.2rem;
+}
+.mod_details .user .user_p1>p span{
+	display: block;
+	width: 0.18rem;
+	height: 0.18rem;
+	line-height: 0.18rem;
+	float: left;
+	font-size: 0.13rem;
+	text-align: center;
+	margin:0.05rem  0.1rem;
+}
+.mod_details .user .user_p1>p .p1_span2{
+	background: #7bc730;
+}
+.mod_details .user .user_p1>p .p1_span3{
+	background: #e35aa4;
+}
+.mod_details .user .user_div1{
+	height: 0.3rem;
+	line-height: 0.3rem;
+}
+.mod_details .user .user_div1 span{
+	display: inline-block;
+	width: 1rem;
+	height: 0.2rem;
+	background: url("../../images/star.png") no-repeat 0 -170px;
+	background-size: 100%;
+}
+.mod_details .user .user_div1 p{
+	float: right;
+	color: #666;
+	font-size: 0.14rem;
+	margin-right: 0.2rem;
+}
+.mod_details .user .user_img{
+	overflow: hidden;
+}
+.mod_details .user .user_img img{
+	float: left;
+	margin-left: 8px;
+	width: 20%;
+	height: 0.63rem;
+}
+.mod_details .user .user_letter{
+	width: 98%;
+	margin:1% 1%;
+	color: #999;
+	font-size: 0.135rem;
+	position: relative;
+}
+.mod_details .user .user_letter p::after{
+	content: "";
+	width: 0.1rem;
+	height: 0.1rem;
+	position: absolute;
+	right: 0.1rem;
+	bottom:  0;
+	border-left: 1px solid #666;
+	border-top: 1px solid #666;
+	transform:rotate(-135deg);
+}
+.mod_details .user .user_time{
+	color: #666;
+	height: 0.3rem;
+	line-height: 0.3rem;
+	margin-left: 0.1rem;
+}
+.mod_details .user .user_time label{
+	float: right;
+	margin-right: 0.1rem;
+}
+.mod_details .user .user_time label img{
+	width: 0.12rem;
+}
+.mod_details .user .user_comment{
+	width: 100%;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	text-align: center;
+	margin-top: 0.1rem;
+	color: #666;
+}
+
+/*查看过的更多的*/
+.mod_details .more{
+
+}
+.mod_details .more .more_p{
+	height: 0.4rem;
+	line-height: 0.4rem;
+}
+.mod_details .more .more_p img{
+	width: 0.25rem;
+	float: left;
+	margin:0.06rem 0.1rem;
+}
+.mod_details .more .more_ul{
+	overflow: hidden;
+	background: #fff;
+}
+.mod_details .more .more_ul li{
+	width: 47%;
+	margin-left:2%;
+	float: left;
+	font-size: 0.14rem;
+}
+.mod_details .more .more_ul li img{
+	width: 100%;
+	height: 0.9rem;
+}
+.mod_details .more .more_ul li .more_span{
+	width: 100%;
+	margin-top: 0.3rem;
+}
+.mod_details .more .more_ul li .more_span .span_span{
+	color: #ff740d;
+}
+.mod_details .more .more_ul li .more_span .span_p {
+	float: right;
+	margin-right: 0.15rem;
+}
+.mod_details .more .more_ul li .more_span .span_p span{
+	color: #d30775
+}
+.mod_details .more .more_ul li .more_span .span_p .p_p2{
+	font-size: 0.2rem;
+}
+.mod_details .circum{
+	margin-top:8px;
+}
+.mod_details .circum p{
+	height: 0.4rem;
+	line-height: 0.4rem;
+	background: #fff;
+}
+.mod_details .circum p img{
+	float: left;
+	width: 0.2rem;
+	margin:0.1rem 0.1rem; 
+}
+.mod_details .circum p .circum_img{
+	float: right;
+	width: 0.15rem;
+	margin-right: 0.2rem;
+	transform:rotate(180deg);
+}
