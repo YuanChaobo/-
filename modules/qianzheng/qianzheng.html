@@ -1,0 +1,109 @@
+	<div class="qianzheng_box">
+		<header>
+			<span></span>
+			<p>签证首页</p>
+		</header>
+
+		<div id="search">
+			<p>
+				<a href="###" name="top" class="search_left">
+					<span>上海</span>
+				</a>
+				<a href="###">
+					<img src="./images/qz_search.png" alt="">
+					<input type="text" placeholder="请输入目的地/关键字/主题">
+				</a>
+			</p>
+		</div>
+
+		<banner>
+			<img src="./images/qz_banner1.jpg" alt="">
+		</banner>
+		
+		<div id="qz_info">
+			<p>热门签证</p>
+			<ul>
+				<li ng-repeat="x in arr2">
+					<img ng-src={{x.large_image}} alt="">
+					<span>{{x.title}}</span>
+					<em>￥{{x.price}}元起</em>
+				</li>
+				<li>
+					<img src="./images/kola.jpg" alt="">
+					<span>澳大利亚</span>
+					<em>￥938元起</em>
+				</li>
+				<div></div>
+				<p><a href="###">查看全部地区</a></p>
+			</ul>
+		</div>
+
+		<div id="qz_benyueth">
+			<p>本月特惠</p>
+			<ul>
+				<li ng-repeat="x in arr">
+					<a href="###">
+						<img ng-src={{x.large_image}} alt="">
+						<div>
+							<p>{{x.title}}</p>
+							<p>{{x.content}}</p>
+							<span>￥<label>{{x.price}}</label>起</span>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+
+		<div id="qz_xiangqing">
+			<div></div>
+			<ul>
+				<li><a href="###"><img src="./images/qz_yingguo.jpg" alt=""></a></li>
+				<li>
+					<a href="###"><img src="./images/qz_globe.jpg" alt="">
+					<img src="./images/qz_hanguo_fast.jpg" alt=""></a>
+				</li>
+			</ul>
+			<p>
+				<span>签证进度查询</span>
+				<a href="###">
+					出签成功率
+					<span>99.9%</span>
+				</a>
+			</p>
+		</div>
+
+		<div id="qz_liucheng">
+			<p>办签流程</p>
+			<ul>
+				<li>
+					<span>
+						<img src="./images/qz_step1.png" alt="">
+						预定递交材料
+					</span>
+				</li>
+				<li>
+					<span>
+						<img src="./images/qz_step2.png" alt="">
+						材料审核
+					</span>
+				</li>
+				<li>
+					<span>
+						<img src="./images/qz_step3.png" alt="">
+						使馆办理
+					</span>
+				</li>
+				<li>
+					<span>
+						<img src="./images/qz_step4.png" alt="">
+						出签领证
+					</span>
+				</li>
+			</ul>
+		</div>
+
+		<div id="qz_fixed">
+			<a><img src="./images/return_top.png" alt=""></a>
+		</div>
+
+	</div>

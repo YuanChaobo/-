@@ -1,0 +1,167 @@
+
+	<div class="zhoubianyou">
+	  <div id="myTop">	  	
+		<header class="top">
+			<a ui-sref = "home">
+				<div class="left">
+					<img src="images/jdmc_topleft.png">
+				</div>
+			</a>
+			<div class="center">
+				<p>周边游</p>
+			</div>
+			<div class="right">
+				<a ui-sref="home"><img src="images/jdmc_topRight1.png" class="img2"></a>
+				<img src="images/jdmc_topRight2.png" class="img1">
+			</div>
+		</header>
+		<div id="soubig">			
+			<div class="sou">
+				<span class="sou_1">北京</span> &nbsp;&nbsp;| &nbsp;&nbsp;<img src="images/jdmc_fdj.png"> <span class="sou_2">常州恐龙园</span>
+			</div>
+		</div>
+	  </div>
+	  <div class="swiper-container">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide" ng-repeat = "x in arr3" repeat-finish>
+		        	<img src={{x.large_image}}>
+		        </div>
+		    </div>
+		    <!-- 如果需要分页器 -->
+		    <div class="swiper-pagination"></div>		    
+		</div>
+	  <div id="main">
+	  	<div class="main_1">
+	  		<ul>
+	  			<li class="li1">
+	  				<p class="bian">TOP&nbsp;目的地</p>
+	  			</li>
+	  			<li class="li2">
+	  				<p>TOP&nbsp;Brand酒店</p>
+	  			</li>
+	  		</ul>
+	  	</div>
+	  	<div class="main_2">
+	  		<ul>
+	  			<li>
+	  				<img src="images/zby_main7.jpg">
+	  				<div class="lidiv">
+	  					<p>古北冰镇</p>
+	  					<p>长城水乡古镇</p>
+	  				</div>
+	  			</li>
+	  			<li>
+	  				<img src="images/zby_main8.jpg">
+	  				<div class="lidiv">
+	  					<p>北京</p>
+	  					<p>皇家园林</p>
+	  				</div>
+	  			</li>
+	  			<li>
+	  				<img src="images/zby_main9.jpg">
+	  				<div class="lidiv">
+	  					<p>天津</p>
+	  					<p>京门十景</p>
+	  				</div>
+	  			</li>
+	  			<li>
+	  				<img src="images/zby_main10.jpg">
+	  				<div class="lidiv">
+	  					<p>长白山</p>
+	  					<p>冰雪长白山</p>
+	  				</div>
+	  			</li>
+	  			<li>
+	  				<img src="images/zby_main11.jpg">
+	  				<div class="lidiv">
+	  					<p>上海</p>
+	  					<p>体验魔都风情</p>
+	  				</div>
+	  			</li>
+	  			<li>
+	  				<img src="images/zby_main12.jpg">
+	  				<div class="lidiv">
+	  					<p>廊坊</p>
+	  					<p>浪漫汤泉</p>
+	  				</div>
+	  			</li>
+	  		</ul>
+	  	</div>
+	  	<div class="main_22 hide">
+	  		<ul>
+	  			<li>
+	  				<img src="images/zby_main21.jpg">
+	  				<div class="lidiv">
+	  					<p>希尔顿</p>
+	  					<p>微笑服务宾至如归</p>
+	  				</div>
+	  			</li>
+	  			<li>
+	  				<img src="images/zby_main22.jpg">
+	  				<div class="lidiv">
+	  					<p>雅高</p>
+	  					<p>法式生活艺术</p>
+	  				</div>
+	  			</li>
+	  			<li>
+	  				<img src="images/zby_main23.jpg">
+	  				<div class="lidiv">
+	  					<p>花间堂</p>
+	  					<p>唯美文化的表达者</p>
+	  				</div>
+	  			</li>
+	  			<li>
+	  				<img src="images/zby_main24.jpg">
+	  				<div class="lidiv">
+	  					<p>岳润壮</p>
+	  					<p>冰雪长白山</p>
+	  				</div>
+	  			</li>
+	  			<li>
+	  				<img src="images/zby_main25.jpg">
+	  				<div class="lidiv">
+	  					<p>喜达屋</p>
+	  					<p>万千精彩汇聚于此</p>
+	  				</div>
+	  			</li>
+	  			<li>
+	  				<img src="images/zby_main1.jpg">
+	  				<div class="lidiv">
+	  					<p>洲际</p>
+	  					<p>洲际人生知行天下</p>
+	  				</div>
+	  			</li>
+	  		</ul>
+	  	</div>
+	  	<div class="main_3">
+	  		<ul>
+	  			<li ng-repeat = "x in arr1">
+	  				<div class="ultop"><img ng-src={{x.large_image}}></div>
+	  				<div>{{x.title}}</div>
+	  			</li>
+	  		</ul>
+	  	</div>
+	  	<div class="main_4">
+	  	 <ul>
+	  		<li ng-repeat = "x in arr2">
+	  			<img ng-src={{x.large_image}}>
+	  			<p>{{x.title}}</p>
+	  		</li>
+	  	  </ul>
+	  	</div>
+	  <div id="main_mian">	  	
+	  	<div class="main_5" ng-repeat = 'x in arr'>
+	  		<div class="main5_top">
+	  			<img lazy-src={{x.middleImage}}>
+	  		</div>
+	  		<div class="main5_bot">
+	  			<h3>{{x.productName}}</h3>
+	  			<p>{{x.desc}}</p>
+	  		</div>
+	  	</div>
+	  </div>
+	 </div>
+	  <div id="footer">
+	  	已经加载全部
+	  </div>
+	</div>

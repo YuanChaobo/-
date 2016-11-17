@@ -1,0 +1,59 @@
+
+	<div class="mod_city">
+		<div class="dingwei">
+			<div class="city">
+				选择城市
+			</div>
+			<div class="seek">
+				<input type="text" placeholder="请输入城市名称"  ng-model="tc">
+			</div>
+		</div>
+			<!-- 当前城市 -->
+		<div class="present">
+			<p>当前定位城市</p>
+			<ul>
+				<li>上海</li>
+			</ul>
+		</div>
+		
+		<!-- 城市首字母 -->
+		<div class="ctlink">
+			<div ng-repeat="(key,value) in arr" class="ABC">
+				<p>{{key}}</p>
+				<ul>
+					<li ng-repeat="x in value | filter:tc">
+						{{x.name}}
+					</li>
+				</ul>
+			</div>
+			<!-- 左边字母 -->
+			<div class="right">
+				<p>A</p>
+				<p>B</p>
+				<p>C</p>
+				<p>D</p>
+				<p>E</p>
+				<p>F</p>
+				<p>G</p>
+				<p>H</p>
+				<p>I</p>
+				<p>J</p>
+				<p>K</p>
+				<p>L</p>
+				<p>M</p>
+				<p>N</p>
+				<p>O</p>
+				<p>P</p>
+				<p>Q</p>
+				<p>R</p>
+				<p>S</p>
+				<p>T</p>
+				<p>U</p>
+				<p>V</p>
+				<p>W</p>
+				<p>X</p>
+				<p>Y</p>
+				<p>Z</p>
+			</div>
+		</div>
+	</div>

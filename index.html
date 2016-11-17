@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<title>index</title>
+	<meta charset="utf-8">
+	 <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+          <link rel="stylesheet" type="text/css" href="css/common.css"/>
+          <link rel="stylesheet" type="text/css" href="lib/swiper-3.4.0.min.css"/>
+          <script type="text/javascript" src="./lib/rem.js"></script>
+          <script type="text/javascript" src="./lib/angular.min.js"></script>
+          <script type="text/javascript" src="./lib/angular-ui-router.js"></script>
+          <script type="text/javascript" src="./lib/angular-css.min.js"></script>
+          <script type="text/javascript" src="lib/jquery-1.11.2.js"></script>
+          <script type="text/javascript" src="lib/me-lazyload.js"></script>
+</head>
+<body>
+	<div id="container">
+		<div ui-view></div>
+	</div>
+	<div class="index" ng-controller = "myCtrl">
+		<footer>
+			<a ui-sref = "home">
+				<img src="images/gray0.png"/>
+				<p>首页</p>
+			</a>
+			<a ui-sref = "remai">
+				<img src="images/gray1.png"/>
+				<p>热卖</p>
+			</a>
+			<a ui-sref = "mudidi">
+				<img src="images/gray2.png"/>
+				<p>目的地</p>
+			</a>
+			<a ui-sref = "zhoubian">
+				<img src="images/gray3.png"/>
+				<p>周边</p>
+			</a>
+			<a ui-sref = "mine">
+				<img src="images/gray4.png"/>
+				<p>我的</p>
+			</a>
+		</footer>
+	</div>
+	<script type="text/javascript" src="lib/swiper-3.4.0.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+	<script type="text/javascript" src="modules/home/home.js"></script>
+	<script type="text/javascript" src="modules/remai/remai.js"></script>
+	<script type="text/javascript" src="modules/mudidi/mudidi.js"></script>
+	<script type="text/javascript" src="modules/zhoubian/zhoubian.js"></script>
+	<script type="text/javascript" src="modules/jingwaiWiFi/jingwaiWiFi.js"></script>
+	<script type="text/javascript" src="modules/pinzhiyiri/pinzhiyiri.js"></script>
+	<script type="text/javascript" src="modules/gengduo/gengduo.js"></script>
+	<script type="text/javascript" src="modules/jingdianmenpiao/jindianmengpiao.js"></script>
+	<script type="text/javascript" src="modules/chujingyou/chujinyou.js"></script>
+	<script type="text/javascript" src="modules/guoneiyou/guonieyou.js"></script>
+	<script type="text/javascript" src="modules/zhoubianyou/zhoubianyou.js"></script>
+	<script type="text/javascript" src="modules/dujiajiudian/dujiajiudian.js"></script>
+	<script type="text/javascript" src="modules/youlun/youlun.js"></script>
+	<script type="text/javascript" src="modules/feijipiao/feijipiao.js"></script>
+	<script type="text/javascript" src="modules/huochepiao/huochepiao.js"></script>
+	<script type="text/javascript" src="modules/mine/mine.js"></script>
+	<script type="text/javascript" src="modules/baitiao/baitiao.js"></script>
+	<script type="text/javascript" src="modules/daishenhe/daishenhe.js"></script>
+	<script type="text/javascript" src="modules/cityList/cityList.js"></script>
+	<script type="text/javascript" src="modules/dingzhiyou/dingzhiyou.js"></script>
+	<script type="text/javascript" src="modules/qianzheng/qianzheng.js"></script>
+	<script type="text/javascript" src="modules/zijiayou/zijiayou.js"></script>
+	<script type="text/javascript" src="modules/zhutiyou/zhutiyou.js"></script>
+</body>
+</html>

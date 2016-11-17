@@ -1,0 +1,255 @@
+@charset "utf-8";
+body{
+	background: #FAFAFA;
+}
+.mine #banner{
+	width: 100%;
+	position: relative;
+	font-size: 0;
+}
+.mine #banner>img{
+	width: 100%;
+}
+.mine #banner>div{
+	position: absolute;
+	top: 30%;
+	width: 100%;
+	padding: 0 0.2rem;
+}
+.mine #banner>div>a{
+	display: inline-block;
+	width: 20%;
+}
+.mine #banner>div>a>img{
+	width: 100%;
+	border-radius: 50%;
+	margin-right: 0.1rem;
+}
+.mine #banner>div>div{
+	width: 78%;
+	float: right;
+}
+.mine #banner>div>div>p{
+	font-size: 0.18rem;
+	color: #fff;
+	width: 25%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin: 0.1rem 0 0.05rem 0;
+}
+.mine #banner>div>div>img{
+	width: 17%;
+}
+.mine #main1{
+	width: 100%;
+	font-size: 0;
+	margin-top: 0.1rem;
+}
+.mine #main1>.div1{
+	width: 100%;
+	background: #fff;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+.mine #main1>.div1>a{
+	display: inline-block;
+	width: 25%;
+	text-align: center;
+	padding: 0.15rem 0;
+	position: relative;
+}
+.mine #main1>.div1>a:nth-of-type(2)>span{
+	display: inline-block;
+	width: 0.2rem;
+	height: 0.2rem;
+	line-height: 0.2rem;
+	text-align: center;
+	color: #fff;
+	font-size: 0.1rem;
+	background: red;
+	border-radius: 50%;
+	position: absolute;
+	top: 0.07rem;
+}
+.mine #main1>.div1>a>img{
+	width: 15%;
+	margin-bottom: 0.1rem;
+}
+.mine #main1>.div1>a:last-of-type>img{
+	width: 23%;
+}
+.mine #main1>.div1>a>p{
+	width: 100%;
+	text-align: center;
+	font-size: 0.14rem;
+}
+.mine #main1>.div2{
+	width: 100%;
+	background: #fff;
+	padding: 0.15rem 0.2rem;
+	border-bottom: 1px solid #eee;
+}
+.mine #main1>.div2>a{
+	display: inline-block;
+	width: 50%;
+}
+.mine #main1>.div2>.a1>img{
+	width: 12%;
+    float: left;
+    margin-bottom: 0.1rem;
+    vertical-align: middle;
+    margin: 0.1rem 0.08rem;
+}
+.mine #main1>.div2>.a1>.p1{
+	font-size: 0.16rem;
+	color: #333333;
+}
+.mine #main1>.div2>.a1>.p2{
+	font-size: 0.14rem;
+}
+.mine #main1>.div2>.a1>.p2>span{
+	font-size: 0.14rem;
+	color: #D30775;
+}
+.mine #main1>.div2>.a2{
+	font-size: 0.14rem;
+}
+.mine #main1>.div2>.a2>span{
+	font-size: 0.14rem;
+	color: #D30775;
+}
+
+.mine #main1>.div3{
+	width: 100%;
+	background: #fff;
+}
+.mine #main1>.div3>a{
+	display: inline-block;
+	width: 50%;
+	padding: 0.1rem 0.2rem;
+	border-bottom: 1px solid #eee;
+}
+.mine #main1>.div3>a:nth-of-type(even){
+	padding: 0.1rem;
+}
+.mine #main1>.div3>a:nth-of-type(odd){
+	border-right: 1px solid #eee;
+}
+.mine #main1>.div3>a>img{
+	width: 11%;
+    float: left;
+    margin-bottom: 0.1rem;
+    vertical-align: middle;
+    margin: 0.1rem 0.08rem;
+}
+.mine #main1>.div3>a>.p1{
+	font-size: 0.16rem;
+	color: #333333;
+}
+.mine #main1>.div3>a>.p2{
+	font-size: 0.14rem;
+}
+.mine #main1>.div3>a:last-of-type>.p2{
+	color: dodgerblue;
+}
+.mine #main2{
+	font-size: 0;
+	background: #fff;
+	border-top: 1px solid #eee;
+	padding-left: 0.1rem;
+	margin-top: 0.1rem;
+}
+
+.mine #main2>a{
+	display: block;
+	width: 100%;
+	padding: 0.1rem 0.1rem 0.1rem 0;
+	border-bottom: 1px solid #eee;
+}
+.mine #main2>a>img{
+	width: 5%;
+	margin-right: 0.2rem;
+	vertical-align: middle;
+}
+.mine #main2>a:nth-of-type(3)>img{
+		width: 7%;
+}
+.mine #main2>a:nth-of-type(4)>img{
+	width: 6%;
+}
+.mine #main2>a>span{
+	font-size: 0.16rem;
+	vertical-align: middle;
+}
+.mine #main2>a>span::after{
+	content: '>';
+	font-size: 0.2rem;
+	float: right;
+	color: #999;
+}
+
+.mine #main3{
+	font-size: 0;
+	background: #fff;
+	border-top: 1px solid #eee;
+	padding-left: 0.1rem;
+	margin-top: 0.1rem;
+	margin-bottom: 0.65rem;
+}
+
+.mine #main3>a{
+	display: block;
+	width: 100%;
+	padding: 0.1rem 0.1rem 0.1rem 0;
+	border-bottom: 1px solid #eee;
+}
+.mine #main3>a>img{
+	width: 5%;
+	margin-right: 0.2rem;
+	vertical-align: middle;
+}
+.mine #main3>a>span{
+	font-size: 0.16rem;
+	vertical-align: middle;
+}
+.mine #main3>a>span::after{
+	content: '>';
+	font-size: 0.2rem;
+	float: right;
+	color: #999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

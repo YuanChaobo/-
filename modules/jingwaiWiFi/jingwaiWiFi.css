@@ -1,0 +1,228 @@
+@charset "UTF-8";
+
+body{
+	font-size: 0.14rem;
+	background: #f9f9f9;
+}
+
+.jwwf_box{
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 0.55rem;
+}
+
+/*头部*/
+.jwwf_box header{
+	height: 0.44rem;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+	line-height: 0.44rem;
+	background: white;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 3;
+}
+.jwwf_box header span{
+	background: url(../../images/qz_lt.png) no-repeat center;
+	background-size: 50%;
+	width: 0.5rem;
+	height: 100%;
+	float: left;
+}
+.jwwf_box header p{
+	font-size: 0.2rem;
+	float: left;
+	width: 3.14rem;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+
+/*banner*/
+.jwwf_box .banner{
+	width: 100%;
+	margin-top: 0.44rem;
+}
+.jwwf_box .banner img{
+	width: 100%;
+}
+
+
+/*热门地区wifi电话卡*/
+.jwwf_box .phone_card{
+	width: 100%;
+	padding-left: 0.1rem;
+	padding-bottom: 0.1rem;
+	background: white;
+	margin-bottom: 0.1rem;
+}
+.jwwf_box .phone_card>p{
+	height: 0.4rem;
+	width: 100%;
+	line-height: 0.4rem;
+	font-size: 0.16rem;
+}
+.jwwf_box .phone_card>div{
+	width: 100%;
+}
+.jwwf_box .phone_card>div a{
+	position: relative;
+	display: inline-block;
+	width: 22.5%;
+	margin-right: 0.05rem;
+	margin-bottom: 0.05rem;
+}
+.jwwf_box .phone_card>div a img{
+	width: 100%;
+}
+.jwwf_box .phone_card>div a span{
+	position: absolute;
+	top: 0.35rem;
+	left: 0.22rem;
+	color: white;
+	padding: 0.05rem 0.1rem;
+	background: rgba(0,0,0,0.5);
+	margin: 0 auto;
+}
+
+.jwwf_box .phone_card>a{
+	width: 1.2rem;
+	display: block;
+	height: 0.3rem;
+	border: 1px solid #d30775;
+	border-radius: 0.15rem;
+	text-align: center;
+	line-height: 0.28rem;
+	margin: 0.1rem auto;
+}
+
+
+/*境外玩乐*/
+.jwwf_box .jingwai_play{
+	width: 100%;
+	background: white;
+}
+.jwwf_box .jingwai_play>p{
+	width: 100%;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding-left: 0.1rem;
+}
+.jwwf_box .jingwai_play>p span{
+	color: #d30775;
+	font-size: 0.12rem;
+	float: right;
+	padding-right: 0.1rem;
+}
+
+.jwwf_box .jingwai_play .a_box{
+	width: 100%;
+	height: 0.4rem;
+}
+.jwwf_box .jingwai_play .a_box a{
+	width: 15%;
+	margin:  0 0.1rem;
+	padding: 0.12rem 0;
+	text-align: center;
+	float: left;
+}
+.jwwf_box .jingwai_play .a_box .demo{
+	border-bottom: 2px solid #d30775;
+	color: #d30775;
+}
+
+.jwwf_box .jingwai_play ul{
+	width: 100%;
+	overflow: hidden;
+	border-top: 1px solid #ddd;
+}
+.jwwf_box .jingwai_play ul li{
+	width: 100%;
+	height: 1rem;
+}
+.jwwf_box .jingwai_play ul li a{
+	float: left;
+	width: 25%;
+	height: 100%;
+	padding: 0.15rem 0.1rem 0;
+	text-align: center;
+}
+.jwwf_box .jingwai_play ul li a img{
+	width: 50%;
+}
+.jwwf_box .jingwai_play ul li a span{
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+
+/*人气推荐*/
+.jwwf_box .info{
+	width: 100%;
+	overflow: hidden;
+	background: white;
+	border-top: 1px solid #ddd;
+}
+.jwwf_box .info>.top{
+	height: 0.4rem;
+	width: 100%;
+	margin-bottom: 0.1rem;
+}
+.jwwf_box .info>.top a{
+	display: inline-block;
+	width: 20%;
+	padding: 0.1rem 0;
+	margin: 0 0.6rem;
+	text-align: center;
+	font-size: 0.14rem;
+}
+.jwwf_box .info>.top .demo{
+	color: #d30775;
+	border-bottom: 2px solid #d30775;
+}
+
+.jwwf_box .info>ul{
+	width: 100%;
+	overflow: hidden;
+	background: #eee;
+}
+.jwwf_box .info>ul li{
+	width: 100%;
+	background: white;
+	margin-bottom: 0.15rem;
+}
+.jwwf_box .info>ul li a{
+	display: block;
+	width: 100%;
+}
+.jwwf_box .info>ul li a img{
+	width: 100%;
+}
+.jwwf_box .info>ul li a>div{
+	width: 100%;
+	height: 0.6rem;
+}
+.jwwf_box .info>ul li a>div p{
+	line-height: 0.3rem;
+	padding-left: 0.1rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 0.14rem;
+}
+.jwwf_box .info>ul li a>div p span{
+	float: right;
+	font-size: 0.12rem;
+	color: #d30775;
+	margin-right: 0.1rem;
+}
+.jwwf_box .info>ul li a>div p span label{
+	font-size: 0.16rem;
+}

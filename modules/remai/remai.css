@@ -1,0 +1,199 @@
+@charset "utf-8";
+body{
+	background: #fafafa;
+}
+*{font-size: 0.05px;}
+.temai header{
+	width: 100%;
+	height: 0.55rem;
+	line-height: 0.5rem;
+	text-align: right;
+	padding: 0 0.1rem;
+	position: fixed;
+	top: 0;
+	z-index: 2;
+	background: #fafafa;
+}
+.temai header>span{
+	display: inline-block;
+	width: 70%;
+	text-align: center;
+	font-size: 0.18rem;
+}
+.temai header>a{
+	font-size: 0.14rem;
+	color: #d30775;
+}
+.temai header>a::after{
+	content: '∨';
+	font-size: 0.18rem;
+	margin-left: 0.05rem;
+}
+.temai #nav{
+	background: #fff;
+	width: 100%;
+	height: 0.5rem;
+	position: fixed;
+	top: 0.5rem;
+	z-index: 2;
+}
+.temai #nav>a{
+	display: inline-block;
+    font-size: 0.16rem;
+    text-align: center;
+    padding: 0.13rem 0.09rem;
+    margin: 0 0.26rem;
+}
+.temai #nav .change_color{
+	border-bottom: 1px solid #d30775;
+	color: #d30775;
+}
+.temai #main{
+	width: 100%;
+	margin: 1.11rem 0 0.55rem 0;
+}
+.temai #main>div{
+	width: 100%;
+	margin-top: 0.1rem;
+}
+.temai #main>div>p{
+	width: 100%;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	background: #fff;
+	padding: 0 0.1rem;
+}
+.temai #main>div>p>img{
+	height: 60%;
+    margin-right: 0.05rem;
+    vertical-align: middle;
+}
+.temai #main>div>p>.ps1{
+	font-size: 0.16rem;
+}
+.temai #main>div>p>.ps2{
+	font-size: 0.14rem;
+}
+.temai #main>div>.out{
+	background: #fff;
+	width: 100%;
+	border-bottom: 1px solid #e0e0e0;
+	margin-top: 0.1rem;
+}
+.temai #main>div>.out:first-of-type{
+	margin-top: 0;
+}
+.temai #main>div>.out>.div1{
+	position: relative;
+}
+.temai #main>div>.out>.div1>img{
+	width: 100%;
+}
+.temai #main>div>.out>.div1>span{
+	padding: 0.1rem 0.2rem;
+	background: #ff8f00;
+	color: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.temai #main>div>.out>.div3{
+	width: 100%;
+	font-size: 0.16rem;
+	height: 0.35rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin: 0.1rem 0 0 0;
+	padding: 0 0.1rem;
+}
+.temai #main>div>.out>.div2{
+	width: 100%;
+	padding: 0.2rem 0.05rem;
+}
+.temai #main>div>.out>.div2>.s1{
+	font-size: 0.14rem;
+	color: #D30775;
+}
+.temai #main>div>.out>.div2>.s2{
+	font-size: 0.16rem;
+	color: #D30775;
+}
+.temai #main>div>.out>.div2>.s3{
+	color: #666;
+	text-decoration: line-through;
+	    margin-right: 1.25rem;
+}
+.temai #main>div>.out>.div2>.s4{
+	font-size: 0.16rem;
+}
+.temai #main>div>.out>.div2>.s5{
+	color: #D30775;
+}
+.temai #main>div>.out>.div2>.s6{
+	padding: 0.1rem 0.15rem;
+	background: #D30775;
+	color: #fff;
+	font-size: 0.16rem;
+	border-radius: 0.05rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

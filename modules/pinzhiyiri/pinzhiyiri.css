@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+body{
+	font-size: 0.14rem;
+	background: #2391ea;
+}
+
+.pzyr_box{
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 0.55rem;
+}
+
+/*头部*/
+.pzyr_box header{
+	height: 0.44rem;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+	line-height: 0.44rem;
+	background: white;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 3;
+}
+.pzyr_box header span{
+	background: url(../../images/qz_lt.png) no-repeat center;
+	background-size: 50%;
+	width: 0.5rem;
+	height: 100%;
+	float: left;
+}
+.pzyr_box header p{
+	font-size: 0.2rem;
+	float: left;
+	width: 3.14rem;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+
+/*品质一日游*/
+.pzyr_box .img{
+	width: 100%;
+	margin-top: 0.44rem;
+}
+.pzyr_box .img img{
+	width: 100%;
+	display: block;
+}
+
+/*内容*/
+.pzyr_box .info1{
+	width: 100%;
+	overflow: hidden;
+	margin: 0.2rem 0;
+}
+.pzyr_box .info1 .pinzhiyiriyou{
+	width: 100%;
+	height: 0.65rem;
+	background: url(../../images/yiriyou_title.jpg) no-repeat center;
+}
+.pzyr_box .info1 ul{
+	width: 100%;
+	overflow: hidden;
+}
+.pzyr_box .info1 ul li{
+	width: 100%;
+	overflow: hidden;
+	background: white;
+	margin-bottom: 0.15rem;
+}
+.pzyr_box .info1 ul li>img{
+	width: 100%;
+}
+.pzyr_box .info1 ul li>p{
+	width: 100%;
+	height: 0.3rem;
+	padding: 0 0.1rem;
+	white-space: nowrap;
+	overflow: hidden;
+	line-height: 0.3rem;
+	text-overflow: ellipsis;
+}
+.pzyr_box .info1 ul li>div{
+	height: 0.4rem;
+	width: 100%;
+	line-height: 0.4rem;
+}
+.pzyr_box .info1 ul li>div span{
+	float: left;
+	color: red;
+	font-size: 0.16rem;
+	margin-left: 0.1rem;
+}
+.pzyr_box .info1 ul li>div span label{
+	font-size: 0.12rem;
+	color: red;
+}
+.pzyr_box .info1 ul li>div a{
+	float: right;
+	margin-right: 0.1rem;
+	width: 0.8rem;
+	height: 0.3rem;
+	background: #de2500;
+	color: white;
+	font-size: 0.16rem;
+	text-align: center;
+	line-height: 0.3rem;
+}
+.pzyr_box .info1 .bottomp{
+	width: 100%;
+	height: 0.4rem;
+}
+.pzyr_box .info1 .bottomp a{
+	display: block;
+	text-align: center;
+	line-height: 0.4rem;
+	color: white;
+	border: 1px solid #fff;
+	border-radius: 0.2rem;
+	width: 2rem;
+	height: 0.4rem;
+	margin: 0 auto;
+}

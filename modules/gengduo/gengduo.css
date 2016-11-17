@@ -1,0 +1,75 @@
+@charset "UTF-8";
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+.mod_more{
+	font-size: 0.16rem;
+	background:#f1f1f1;
+	margin-bottom: 0.55rem;
+}
+.mod_more .header {
+	text-align: center;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	font-size: 0.2rem;
+}
+.mod_more .header img{
+	width: 0.2rem;
+	float: left;
+	margin:0.15rem 0 0 0.1rem;
+}
+/*更多品牌*/
+.mod_more .more_breed{
+	background: #fff;
+	margin-bottom: 8px;
+}
+.mod_more .more_breed .breed_fixation p{
+	width: 100%;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	padding-left: 0.15rem;
+	position: relative;
+	border-left: 5px solid #ff740c;
+}
+.mod_more .more_breed .breed_fixation p::after{
+	content: "";
+	width: 0.14rem;
+	height: 0.14rem;
+	position: absolute;
+	right: 0.2rem;
+	top: 0.1rem;
+	border-top: 1px solid #aaa;
+	border-right: 1px solid #aaa;
+	transform:rotate(135deg);
+}
+.mod_more .more_breed .breed_fixation ul{
+	overflow: hidden;
+}
+.mod_more .more_breed .breed_fixation ul li{
+	width: 33.3%;
+	float: left;
+}
+.mod_more .more_breed .breed_fixation ul li a{
+	display: block;
+}
+.mod_more .more_breed .breed_fixation ul li img{
+	width: 100%;
+}
+.mod_more .more_breed .conceal{
+	overflow: hidden;
+}
+.mod_more .more_breed .conceal li{
+	float: left;
+	width: 33.3%;
+}
+.mod_more .more_breed .conceal li img{
+	width: 100%;
+}

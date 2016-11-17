@@ -1,0 +1,483 @@
+@charset "UTF-8";
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+.mod_home{
+	width: 100%;
+	font-size: 0.16rem;
+	background:#fafafa;
+	margin-bottom: 0.55rem;
+}
+/*搜索框*/
+.mod_home  .home_location{
+	width: 100%;
+	height: 0.5rem;
+}
+.mod_home  .home_location .city{
+	float: left;
+	width: 16%;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	position: relative;
+	margin-left: 2%;
+}
+.mod_home  .home_location .city::after{
+	content: "";
+	width: 0.1rem;
+	height: 0.1rem;
+	position: absolute;
+	top: 30%;
+	right: 18%;
+	border-bottom: 1px solid #d30775;
+	border-left: 1px solid #d30775;
+	transform:rotate(-45deg);
+}
+.mod_home  .home_location>p{
+	float: left;
+	width: 65%;
+	height: 0.5rem;
+	line-height: 0.5rem;
+}
+.mod_home  .home_location>p input{
+	width: 88%;
+	height: 0.3rem;
+	margin-left: 9%;
+	background: rgba(0,0,0,0);
+	border: 1px solid #BDBDBD;
+	outline: medium;
+	border-radius: 0.02rem;
+	padding-left: 0.1rem;
+}
+.mod_home  .home_location .my{
+	float: right;
+	width: 16%;
+	height: 0.5rem;
+	background: url("../../images/pp.png") no-repeat center;
+	background-size: 40%;
+}
+
+
+
+.mod_home .swiper-slide{
+	width: 100%;
+}
+.mod_home .swiper-container{
+	width: 100%;
+}
+.mod_home .swiper-slide img{
+	width: 100%;
+}
+.mod_home .swiper-container{
+	width: 100%;
+}
+.mod_home .jiekou ul{
+	overflow: hidden;
+	margin-bottom: 0.1rem;
+}
+.mod_home .jiekou li{
+	float: left;
+	width: 25%;
+	text-align: center;
+	margin:auto;
+	margin-top: 0.1rem;
+}
+.mod_home .jiekou li span{
+	display: block;
+	width: 100%;
+	height: 0.5rem;
+	background-size: 65%;
+	padding-top: 0.05rem;
+}
+.mod_home .jiekou li a{
+	display: block;
+	width: 85%;
+	border-radius: 0.15rem;
+	margin:auto;
+	padding-bottom: 0.1rem;
+	color: #fff;
+}
+/*第一个li*/
+.mod_home .jiekou .jiekou_li1 a{
+	background:#d30775;
+}
+.mod_home .jiekou .jiekou_li1 span{
+	background:url("../../images/1476682724_61552.png") no-repeat center center;
+	background-size: 65%;
+}
+/*第二个li*/
+.mod_home .jiekou .jiekou_li2 a{
+	background:#ec4c40;
+}
+.mod_home .jiekou .jiekou_li2 span{
+	background:url("../../images/1476682790_59794.png") no-repeat center center;
+	background-size: 65%;
+}
+/*第三个li*/
+.mod_home .jiekou .jiekou_li3 a{
+	background: #f8791c; 
+}
+.mod_home .jiekou .jiekou_li3 span{
+	background: url("../../images/1476682597_45819.png") no-repeat center center;
+	background-size: 65%;
+}
+/*第四个li*/
+.mod_home .jiekou .jiekou_li4 a{
+	background:#c672e1;
+}
+.mod_home .jiekou .jiekou_li4 span{
+	background:url("../../images/1476682538_11823.png") no-repeat center center;
+	background-size: 65%;
+}
+/*第五个li*/
+.mod_home .jiekou .jiekou_li5 a{
+	background: #8a72e1;
+}
+.mod_home .jiekou .jiekou_li5 span{
+	background: url("../../images/1476682617_33248.png") no-repeat center center;
+	background-size: 65%;
+}
+/*第六个li*/
+.mod_home .jiekou .jiekou_li6 a{
+	background: #5598dc;
+}
+.mod_home .jiekou .jiekou_li6 span{
+	background: url("../../images/1476682387_26021.png") no-repeat center center;
+	background-size: 65%;
+}
+/*第七个li*/
+.mod_home .jiekou .jiekou_li7 a{
+	background: #1dbf93;
+}
+.mod_home .jiekou .jiekou_li7 span{
+	background: url("../../images/1476669278_80377.png") no-repeat center center;
+	background-size: 65%;
+}
+/*第八个li*/
+.mod_home .jiekou .jiekou_li8 a{
+	background: #7bc730;
+}
+.mod_home .jiekou .jiekou_li8 span{
+	background: url("../../images/1476669145_12855.png") no-repeat center center;
+	background-size: 65%;
+}
+
+
+/*选择旅游方式*/
+.mod_home .junketing{
+	font-size: 0.14rem;
+	color: #666;
+}
+.mod_home .junketing ul{
+	overflow: hidden;
+}
+.mod_home .junketing li{
+	width: 23%;
+	background: #fff;
+	float: left;
+	margin-left: 1.5%;
+	text-align: center;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	margin-top: 0.05rem;
+}
+.mod_home .junketing li a{
+	display: block;
+	overflow: hidden;
+}
+.mod_home .junketing li p{
+	float: right;
+	width: 0.7rem;
+}
+.mod_home .junketing li span{
+	display: block;
+	float: left;
+	padding: 0.125rem 0.125rem;
+	height: 0.5rem;
+}
+/*各自的背景图*/
+.mod_home .junketing .junketing_li1 span{
+	background:url("../../images/1476769924_62966.png") no-repeat center center;
+	background-size: 100%;
+}	
+.mod_home .junketing .junketing_li2 span{
+	background:url("../../images/1476769782_79059.png") no-repeat center center;
+	background-size: 100%;
+}
+.mod_home .junketing .junketing_li3 span{
+	background:url("../../images/1476769855_26957.png") no-repeat center center;
+	background-size: 100%;
+}
+.mod_home .junketing .junketing_li4 span{
+	background:url("../../images/1476769638_53793.png") no-repeat center center;
+	background-size: 100%;
+}
+.mod_home .junketing .junketing_li5 span{
+	background:url("../../images/1476769632_62432.png") no-repeat center center;
+	background-size: 100%;
+}
+.mod_home .junketing .junketing_li6 span{
+	background:url("../../images/1476769262_27199.png") no-repeat center center;
+	background-size: 100%;
+}
+.mod_home .junketing .junketing_li7 span{
+	background:url("../../images/1476769250_38916.png") no-repeat center center;
+	background-size: 100%;
+}
+.mod_home .junketing .junketing_li8 span{
+	background:url("../../images/fenlei2-8.png") no-repeat center center;
+	background-size: 100%;
+}
+
+/*小轮播*/
+.mod_home .bo{
+	height:  0.5rem;
+	line-height: 0.5rem;
+	font-size: 0.14rem;
+	background: #fff;
+	margin-top: 0.1rem;
+}
+.mod_home .bo .bo_p1{
+	float: left;
+}
+.mod_home .bo .bo_p1 span{
+	display: block;
+	text-align: center;
+	float: left;
+	color: #f8791c;
+	width: 0.3rem;
+	height: 0.2rem;
+	line-height: 0.2rem;
+	margin: 0.15rem 0.1rem 0 0;
+	border:1px solid #f8791c;
+	border-radius: 0.1rem;
+}
+.mod_home .bo .bo_p2{
+	float: right;
+	height: 0.2rem;
+	line-height: 0.2rem;
+	padding: 0 0.1rem;
+	margin-top: 0.15rem;
+	border-left: 1px solid #aaa;
+}
+/*大会场*/
+.mod_home .huichang{
+	background:url("../../images/1478057727_90550.jpg") no-repeat ;
+	background-size: 100%;
+	overflow: hidden;
+	padding: 0.1rem 0 ;
+}
+.mod_home .huichang img{
+	width: 100%;
+}
+.mod_home .huichang .huichang_show{
+	width: 100%;
+	padding-left: 0.3rem;
+}
+.mod_home .huichang .huichang_show img{
+	width: 23%;
+	float: left;
+}
+/*热门推荐*/
+.mod_home .hotrecommend{
+	overflow: hidden;
+	margin-bottom: 4px;
+	font-size: 0.14rem;
+}
+.mod_home .hotrecommend .hotrecommend_span{
+	height: 0.3rem;
+	line-height: 0.3rem;
+	margin-left: 0.1rem;
+}
+.mod_home .hotrecommend .hotrecommend_span span{
+	padding-left: 0.1rem;
+	border-left: 2px solid #aaa;
+}
+.mod_home .hotrecommend .hotrecommend_1{
+	float: left;
+	width: 50%;
+}
+.mod_home .hotrecommend .hotrecommend_1 img{
+	width: 100%;
+}
+.mod_home .hotrecommend .hotrecommend_2{
+	float: right;
+	width: 50%;
+}
+.mod_home .hotrecommend .hotrecommend_2 img{
+	width: 100%;
+	float: left;
+}
+.mod_home .hotrecommend .hotrecommend_3{
+	overflow: hidden;
+	width: 100%;
+}
+.mod_home .hotrecommend .hotrecommend_3 img{
+	float: left;
+	width: 33.3%;
+}
+/*手机专享*/
+.mod_home .phonex{
+	overflow: hidden;
+	margin-bottom: 4px;
+	font-size: 0.14rem;
+}
+.mod_home .phonex p{
+	height: 30px;
+	line-height: 30px;
+	margin-left: 0.1rem;
+}
+.mod_home .phonex p span{
+	border-left: 2px solid #aaa;
+	padding-left: 0.03rem;
+}
+.mod_home .phonex img{
+	width: 50%;
+	float: left;
+}
+/*限时抢购*/
+.mod_home .rushpurchase{
+	overflow: left;
+	margin-top: 0.1rem;
+	font-size: 0.14rem;
+	background: #fff;
+}
+.mod_home .rushpurchase>p{
+	height: 40px;
+	line-height: 40px;
+	margin-left: 0.1rem;
+}
+.mod_home  .rushpurchase>p>span{
+	padding-left: 0.05rem;
+	border-left:3px solid #aaa;
+}
+.mod_home  .rushpurchase p label{
+	float: right;
+	margin-right: 0.1rem;
+	color: red;
+}
+.mod_home  .rushpurchase>div{
+	width: 100%;
+	overflow-x: scroll;
+}
+.mod_home  .rushpurchase>div::-webkit-scrollbar{
+	width: 0px;
+}
+.mod_home  .rushpurchase .rushpurchase_ul{
+	overflow-x: scroll;
+	width: 300%;
+	height: 2.05rem;
+}
+.mod_home  .rushpurchase .rushpurchase_ul li{
+	width: 14.28%;
+	float: left;
+	text-align: center;
+}
+.mod_home  .rushpurchase .rushpurchase_ul li>img{
+	width: 100%;
+}
+.mod_home  .rushpurchase .rushpurchase_ul li>p{
+	height: 0.4rem;
+	line-height: 0.2rem;
+	width: 90%;
+	display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+}
+.mod_home .rushpurchase .rushpurchase_ul li>div{
+	height: 0.3rem;
+	width: 90%;
+}
+.mod_home .rushpurchase .rushpurchase_ul li>div>span{
+	font-size: 0.12rem;
+	text-decoration: line-through;
+}
+.mod_home .rushpurchase .rushpurchase_ul li>div p{
+	float: right;
+	margin: 0.1rem 0.1rem 0 0;
+	line-height: 0.2rem;
+}
+.mod_home .rushpurchase .rushpurchase_ul li>div p span{
+	color: red;
+}
+
+/*更多精彩发现*/
+.mod_home .gdjc{
+	background:#fff;
+}
+.mod_home .gdjc>p{
+	text-align: center;
+	height:  0.3rem;
+	line-height: 0.3rem;
+}
+.mod_home .gdjc .gdjc_ticket{
+	width: 100%;
+	overflow: hidden;
+}
+.mod_home .gdjc .gdjc_ticket li{
+	position: relative;
+}
+.mod_home .gdjc .gdjc_ticket li img{
+	width: 100%;
+}
+.mod_home .gdjc .gdjc_ticket li .gdjc_ticket_div1{
+	margin: 0.1rem 0.1rem;
+
+}
+.mod_home .gdjc .gdjc_ticket li>div p{
+	font-size: 0.14rem;
+	color: #aaa;
+}
+.mod_home .gdjc .gdjc_ticket li .gdjc_ticket_div2{
+	position: absolute;
+	width: 0.8rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	text-align: center;
+	right: 0;
+	top: 0.9rem;
+	background:#ff720e;
+	color: #fff;
+}
+.mod_home .gdjc .gdjc_ticket li .gdjc_ticket_div2 span{
+	font-size: 0.25rem;
+	color: #fff;
+}
+/*加载完毕*/
+.mod_home .toload{
+	height: 0.3rem;
+	line-height: 0.3rem;
+	text-align: center;
+	/*background: #aaa;*/
+}
+/*回到顶部*/
+.mod_home .topc{
+	position: fixed;
+	right: 0.2rem;
+	bottom: 1rem;
+	width: 0.6rem;
+	height: 0.6rem;
+	border-radius:50%;
+	text-align: center;
+	background: #d30775;
+	color: #fff;
+}
+.mod_home .topc img{
+	width:40%;
+	margin-top: 0.05rem;
+}
+.mod_home .topc p{
+	color: #fff;
+}
+.mod_home .jiekou li p{
+	color: #fff;
+}

@@ -1,0 +1,315 @@
+
+	<div class="mod_home">
+		<div class="home_location">
+			<a class="city" ui-sref="cityList">
+				上海
+			</a>
+			<p>
+				<input type="text" placeholder="秋季大促销">
+			</p>
+			<a class="my" ui-sref="mine">
+			</a>
+		</div>
+
+		<!-- 图片轮播插件 -->
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide" ng-repeat = "x in arr2" repeat-finish>
+		        	<img ng-src={{x.large_image}}>
+		        </div>
+		    </div>
+		    <!-- 如果需要分页器 -->
+		    <div class="swiper-pagination"></div>		    
+		</div>
+		<!-- 图片链接 -->
+		<div class="jiekou">
+			<ul>
+				<li class="jiekou_li1">
+					<a ui-sref = "jingdianmenpiao">
+						<span></span>
+						<p>景点门票</p>
+					</a>
+				</li>
+				<li class="jiekou_li2">
+					<a ui-sref = "zhoubianyou">
+						<span></span>
+						<p>周边游</p>
+					</a>
+				</li>
+				<li class="jiekou_li3">
+					<a ui-sref = "dujiajiudian">
+						<span></span>
+						<p>度假酒店</p>
+					</a>
+				</li>
+				<li class="jiekou_li4">
+					<a ui-sref = "guoneiyou">
+						<span></span>
+						<p>国内游</p>
+					</a>
+				</li>
+				<li class="jiekou_li5">
+					<a ui-sref = "chujingyou">
+						<span></span>
+						<p>出境游</p>
+					</a>
+				</li>
+				<li class="jiekou_li6">
+					<a ui-sref = "youlun">
+						<span></span>
+						<p>邮轮</p>
+					</a>
+				</li>
+				<li class="jiekou_li7">
+					<a ui-sref = "feijipiao">
+						<span></span>
+						<p>飞机票</p>
+					</a>
+				</li>
+				<li class="jiekou_li8">
+					<a ui-sref = "huochepiao">
+						<span></span>
+						<p>火车票</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+
+		<!-- 旅游方式 -->
+		<div  class="junketing">
+			<ul>
+				<li class="junketing_li1">
+					<a ui-sref="qianzheng">
+						<span></span>
+						<p>签证</p>
+					</a>
+				</li>
+				<li class="junketing_li2">
+					<a ui-sref="zijiayou">
+					<span></span>
+					<p>自驾游</p>
+					</a>
+				</li>
+				<li class="junketing_li3">
+					<a ui-sref="dingzhiyou">
+					<span></span>
+					<p>定制游</p>
+					</a>
+				</li>
+				<li class="junketing_li4">
+					<a ui-sref="zhutiyou">
+					<span></span>
+					<p>主题游</p>
+					</a>
+				</li>
+				<li class="junketing_li5">
+					<a ui-sref = "jingwaiWiFi">
+					<span></span>
+					<p>境外WIFI</p>
+					</a>
+				</li>
+				<li class="junketing_li6">
+					<a ui-sref="pinzhiyiri">
+					<span></span>
+					<p>品质一日游</p>
+					</a>
+				</li>
+				<li class="junketing_li7">
+					<a>
+					<span></span>
+					<p>攻略</p>
+					</a>
+				</li>
+				<li class="junketing_li8">
+					<a ui-sref="gengduo">
+					<span></span>
+					<p>更多</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!-- 小轮播 -->
+		<div class="bo">
+			<p class="bo_p1">
+				<span>HOT</span>抽我，快抽我秋高气爽！
+			</p>
+			<span class="bo_p2">
+				上海迪士尼
+			</span>
+		</div>
+		<!-- 大会场 -->
+		<div class="huichang">
+			<img src="./images/1477998963_53482.jpg">
+			<p class="huichang_show">
+				<img src="./images/1478253516_20374.png">
+				<img src="./images/1474339939_74258.jpg">
+				<img src="./images/1474340050_47270.jpg">
+				<img src="./images/1478253273_74928.png">
+			</p>
+		</div>
+		<!-- 热门推荐 -->
+		<div class="hotrecommend">
+			<p class="hotrecommend_span"><span>热门推荐</span></p>
+			<p class="hotrecommend_1">
+				<img src="./images/1465351259_87890.jpg">
+			</p>
+			<p class="hotrecommend_2">
+				<img src="./images/1472695503_23043.png">
+				<img src="./images/1475132487_46948.png">
+			</p>
+			<p class="hotrecommend_3">
+				<img src="./images/1478588253_25269.jpg">
+				<img src="./images/1477966504_28131.jpg">
+				<img src="./images/1477967267_69904.png">
+			</p>
+		</div>
+		<!-- 手机专享 -->
+		<div class="phonex">
+			<p>
+				<span>手机专享</span>
+			</p>
+			<img src="./images/1470391082_44765.png">
+			<img src="./images/1477560428_27109.png">
+			<img src="./images/1478761657_30573.jpg">
+			<img src="./images/1478758348_54060.png">
+		</div>
+		<!-- 限时抢购 -->
+		<div class="rushpurchase">
+			<p>
+				<span>限时抢购</span>
+				<label>更多&gt;</label>
+			</p>
+			<div>
+				<ul class="rushpurchase_ul">
+				<li>
+					<img src="./images/a688cc57-371c-47fc-9cc2-5d7522d5453c_180_120.jpg">
+					<p>
+						三亚双飞5日4晚自由行(三亚国光毫升度假酒店)
+					</p>
+					<div>
+						<span>￥3339</span>
+						<p>
+							<span>￥1565</span>起
+						</p>
+					</div>
+				</li>
+				<li>
+					<img src="./images/4a44e415-1042-408a-aca7-39cea4aca88b_180_120.jpg">
+					<p>
+						三亚双飞5日4晚自由行(三亚国光毫升度假酒店)
+					</p>
+					<div>
+						<span>￥3339</span>
+						<p>
+							<span>￥1565</span>起
+						</p>
+					</div>
+				</li>
+				<li>
+					<img src="./images/6571768e-1f86-44a2-9228-209da7d673d5_180_120.jpg">
+					<p>
+						三亚双飞5日4晚自由行(三亚国光毫升度假酒店)
+					</p>
+					<div>
+						<span>￥3339</span>
+						<p>
+							<span>￥1565</span>起
+						</p>
+					</div>
+				</li>
+				<li>
+					<img src="./images/6d9198e8-ced8-48c4-8af4-33dbcea5523e_180_120.jpg">
+					<p>
+						三亚双飞5日4晚自由行(三亚国光毫升度假酒店)
+					</p>
+					<div>
+						<span>￥3339</span>
+						<p>
+							<span>￥1565</span>起
+						</p>
+					</div>
+				</li>
+				<li>
+					<img src="./images/17d5c5b0-203f-4863-93ab-97239914177d_180_120.jpg">
+					<p>
+						三亚双飞5日4晚自由行(三亚国光毫升度假酒店)
+					</p>
+					<div>
+						<span>￥3339</span>
+						<p>
+							<span>￥1565</span>起
+						</p>
+					</div>
+				</li>
+				<li>
+					<img src="./images/90eddc59-a052-43d8-a381-1bd16a834f7b_180_120.jpg">
+					<p>
+						三亚双飞5日4晚自由行(三亚国光毫升度假酒店)
+					</p>
+					<div>
+						<span>￥3339</span>
+						<p>
+							<span>￥1565</span>起
+						</p>
+					</div>
+				</li>
+				<li>
+					<img src="./images/2f4011a3-7fb0-4edc-811a-519e14dc6904_180_120.jpg">
+					<p>
+						三亚双飞5日4晚自由行(三亚国光毫升度假酒店)
+					</p>
+					<div>
+						<span>￥3339</span>
+						<p>
+							<span>￥1565</span>起
+						</p>
+					</div>
+				</li>
+			</ul>
+			</div>			
+		</div>
+		<!-- 发现更多精彩 -->
+		<div class="gdjc">
+			<p>
+				------ 发现更多精彩 -------
+			</p>
+			<ul class="gdjc_ticket">
+				<li ng-repeat = "x in arr1">
+					<img lazy-src={{x.large_image}}>
+					<div class="gdjc_ticket_div1">
+						<h3>{{x.title}}</h3>
+						<p>{{x.content}}</p>
+					</div>
+					<div class="gdjc_ticket_div2">
+						￥<span>{{x.price}}</span>元
+					</div>
+				</li>
+			</ul>
+			
+		</div>
+		<!-- 加载完毕 -->
+		<div class="toload">
+			已加载系那是完全部内容
+		</div>
+		
+		<!-- 回到顶部 -->
+		<div class="topc" style="display: none;">
+			<img src="./images/向上.png">
+			<p>顶部</p>
+		</div>
+	</div>
+
+	<!-- 图片轮播相关之知识-->
+	<script type="text/javascript" src="./swiper-3.4.0.min.js"></script>
+	<script>        
+		  var mySwiper = new Swiper ('.swiper-container', {
+		    direction: 'vertical',
+		    loop: true,
+		    autoplay:1000;
+		    // 如果需要分页器
+		    pagination: '.swiper-pagination',
+		    
+		    // 如果需要滚动条
+		    scrollbar: '.swiper-scrollbar',
+		  })        
+	 </script>

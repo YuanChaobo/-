@@ -1,0 +1,69 @@
+
+	<div class="zjy_box">
+
+		<header>
+			<span></span>
+			<p>驴妈妈自驾游-周边、房车、川藏精选路线</p>
+		</header>
+
+		<banner>
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide" ng-repeat = "x in arr2" repeat-finish>
+						<img ng-src={{x.large_image}} alt="">
+					</div>
+				</div>
+				<!-- 如果需要分页器 -->
+		    	<div class="swiper-pagination"></div>
+			</div>
+		</banner>
+
+		<nav>
+			<div><img src="./images/zjy_luying.jpg" alt=""></div>
+			<div><img src="./images/zjy_club.jpg" alt=""></div>
+		</nav>
+
+		<div class="baozijia">
+			<img src="./images/zjy_zj.jpg" alt="">
+		</div>
+
+		<ul>
+			<li>
+				<img src="./images/zjy_chuanzang.jpg" alt="">
+			</li>
+			<li>
+				<img src="./images/zjy_qingdao.jpg" alt="">
+				<img src="./images/zjy_menggu.jpg" alt="">
+			</li>
+		</ul>
+
+		<div id="zjy_info">
+			<ul class="top">
+				<li><a class="color">周末</a></li>
+				<li><a>3小时车程</a></li>
+				<li><a>更远车程</a></li>
+			</ul>
+			<ul class="bottom">
+				<li ng-repeat="x in arr">
+					<a href="###">
+						<img lazy-src={{x.large_image}} alt="">
+						<span>{{x.back_word2}}</span>
+						<p><img src="./images/location.png" alt=""><span>全国</span></p>
+						<label>￥<i>{{x.price}}</i>起</label>
+					</a>
+					<div>
+						<p>{{x.title}}</p>
+						<p>{{x.content}}</p>
+					</div>
+				</li>
+				
+			</ul>
+			<div class="all_bottom">
+				<p>
+					<img src="./images/lvmama.png" alt="">
+					<span>已全部加载完毕</span>
+				</p>
+			</div>
+		</div>
+
+	</div>

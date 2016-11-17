@@ -1,0 +1,129 @@
+@charset "UTF-8";
+.mod_city{
+	font-size: 0.16rem;
+	background:#fafafa;
+	margin-bottom: 0.55rem;
+}
+/*标题*/
+.mod_city .dingwei{
+	position: fixed;
+	width: 100%;
+	height: 1rem;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	background:#fafafa;
+}
+.mod_city .dingwei .city{
+	width:90%;
+	margin:0 auto; 
+	height: 0.5rem;
+	line-height:0.5rem;
+	text-align: center;
+	position: relative;
+}
+.mod_city .dingwei .city::before{
+	content: "";
+    position: absolute;
+    left: 0.12rem;
+    top: 0.18rem;
+    width: 0.15rem;
+    height: 0.15rem;
+    border-left: 1px solid #d30775;
+    border-bottom: 1px solid #d30775;
+    /*-webkit-transform: rotate(45deg);*/
+    transform: rotate(45deg);
+}
+/*搜索框*/
+.mod_city .dingwei .seek{
+	height: 0.5rem;
+	text-align: center;
+	line-height: 0.5rem;
+	border-top:1px solid #aaa;
+}
+.mod_city .dingwei .seek input{
+	width: 80%;
+	height: 0.3rem;
+}
+
+
+.mod_city .present{
+	margin-top: 1rem;
+	font-size: 0.12rem;
+	color: #666;
+}
+.mod_city  .present p{
+	width: 80%;
+	height: 0.3rem;
+	line-height: 0.3rem;
+	margin-left: 0.1rem;
+}
+.mod_city  .present ul{
+	background:#fff;
+	padding:0.1rem 0 0.1rem 0.1rem;
+	width: 100%;
+}
+.mod_city .present ul li{
+	color: #d30775;
+	width: 25%;
+	height: 0.4rem;
+	text-align: center;
+	line-height: 0.4rem;
+	font-size: 0.17rem;
+	border:1px solid #d30775;
+}
+
+.mod_city .ctlink{
+	position: relative;
+}
+/*选择城市字母*/
+.mod_city .ABC {
+	width: 100%;
+}
+.mod_city .ABC p,.mod_city .ABC  ul li{
+	height: 0.4rem;
+	line-height: 0.4rem;
+	padding-left: 0.1rem;
+	position: relative;
+}
+.mod_city .ABC p{
+	border-top: 1px solid #aaa;
+}
+.mod_city .ABC p::before{
+	content: "";
+	position: absolute;
+    right:  0.6rem;
+    top: 0.1rem;
+    width: 0.13rem;
+    height: 0.13rem;
+    border-right: 1px solid #666;
+    border-bottom: 1px solid #666;
+    /*-webkit-transform: rotate(45deg);*/
+    transform: rotate(45deg);
+}
+.mod_city .ABC ul{
+	background: #fff;
+	display: none;	
+}
+
+
+.mod_city .ABC  ul li{
+	border-bottom: 1px solid #aaa;
+}
+.mod_city .ABC  ul li:last-child{
+	border:none;
+}
+.mod_city .right{
+	position:fixed;
+	right: 0;
+	top: 1rem;
+	background: #fff;
+	width: 10%;
+	height: 6rem;
+	text-align: center;
+	font-size: 0.12rem;
+}
+.mod_city .right p{
+	margin-top: 0.06rem;
+	color: #d30775;
+}

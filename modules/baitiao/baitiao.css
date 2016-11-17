@@ -1,0 +1,141 @@
+@charset "utf-8";
+body{
+	background: #FAFAFA;
+}
+.baitiao{
+	background: #FAFAFA;
+	font-size: 0;
+}
+.baitiao header{
+	height: 0.5rem;
+	line-height: 0.5rem;
+	border-bottom: 1px solid #BDBDBD;
+	padding: 0 0.1rem;
+}
+.baitiao header>img{
+	width: 7%;
+	vertical-align: middle;
+}
+.baitiao header>span{
+	display: inline-block;
+	width: 90%;
+	text-align: center;
+	font-size: 0.2rem;
+	vertical-align: middle;
+}
+.baitiao>form>div{
+	background: #fff;
+	width: 100%;
+}
+.baitiao>form>div table{
+	width: 100%;
+}
+.baitiao>form>div table tr td:first-of-type{
+	padding-left: 0.1rem;
+	width: 1.2rem;
+}
+.baitiao>form>div table td{
+	font-size: 0.15rem;
+	padding: 0.1rem 0;
+}
+.baitiao>form>div table td img{
+	width: 10%;
+	margin-right: 0.15rem;
+}
+.baitiao>form>div table td input{
+	border: none;
+	outline: medium;
+	font-size: 0.15rem;
+}
+.baitiao>form>p{
+	line-height: 0.3rem;
+	padding: 0 0.1rem;
+}
+.baitiao>form>.p1{
+	font-size: 0.14rem;
+	margin-top: 0.1rem;
+}
+.baitiao>form>.p2>.s1{
+	display: inline-block;
+	width: 0.15rem;
+	height: 0.15rem;
+	line-height: 0.15rem;
+	text-align: center;
+	background: #D30775;
+	color: #fff;
+	font-size: 0.1rem;
+	vertical-align: middle;
+}
+.baitiao>form>.p2>.s2{
+	font-size: 0.14rem;
+	color: #1E90FF;
+	vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

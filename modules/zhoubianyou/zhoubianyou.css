@@ -1,0 +1,305 @@
+
+.zhoubianyou{
+	background: #f1f1f1;
+}
+.zhoubianyou .top{
+	width: 100%;
+	height: 0.45rem;
+	font-size: 0;
+	border-bottom: 1px solid #bbb;
+	background: #f8f8f8;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 999;
+}
+.zhoubianyou .top .left{
+	float: left;
+	width: 0.35rem;
+	text-align: center;
+	height: 0.45rem;
+	line-height: 0.45rem;
+}
+.zhoubianyou .top .left img{
+	width: 0.1rem;
+	margin-top: 0.14rem;
+}
+.zhoubianyou .top .center{
+	float: left;
+	font-size: 0.19rem;
+	width:74%;
+	line-height: 0.45rem;
+	
+}
+.zhoubianyou .top .center p{
+	padding-left: 1.3rem;
+	color: #000;
+	word-break: break-all;
+}
+.zhoubianyou .top .right{
+	float: right;
+	height: 0.45rem;
+}
+.zhoubianyou .top .right img{
+	width: 0.23rem;
+	margin-top: 0.1rem;
+}
+.zhoubianyou .top .right .img2{
+	margin-right: 0.1rem;
+}
+.zhoubianyou .top .right .img1{
+	margin-right: 0.1rem;
+}
+.zhoubianyou #soubig{
+	padding-top: 0.1rem;s
+	font-size: 0;
+	margin-top: 0.45rem;
+	width: 100%;
+	height: 0.5rem;
+	background: #f1f1f1;
+}
+.zhoubianyou .sou{
+	background: #fff;
+	width: 3.95rem;
+	height: 0.3rem;
+	font-size: 0.16rem;
+	margin-left: 0.1rem;
+	border:1px solid #ddd;
+	border-radius: 3px;
+}
+.zhoubianyou .sou .sou_1{
+	display: inline-block;
+	color: #d30775;
+	line-height: 0.3rem;
+	margin-bottom: 0.05rem;
+	position: relative;
+	font-size: 0.14rem;
+	padding-left: 0.1rem;
+	padding-right: 0.15rem;
+}
+.zhoubianyou .sou .sou_1::after{
+	content: "";
+    width: 0.05rem;
+    height: 0.05rem;
+    border-top: 1px solid #d30775;
+    border-right: 1px solid #d30775;
+    transform: rotate(135deg);
+    position: absolute;
+    top: .09rem;
+    right: -0.01rem;
+}
+.zhoubianyou .sou img{
+	width: 0.15rem;
+}
+.zhoubianyou .sou .sou_2{
+	font-size: 0.15rem;
+	padding-left: 0.1rem;
+	color: #ccc;
+}
+.zhoubianyou .swiper-slide{
+	width: 100%;
+	height: 1.68rem;
+}
+.zhoubianyou .swiper-slide img{
+	width: 100%;
+}
+.zhoubianyou #main{
+	font-size: 0;
+	width: 100%;
+	margin-top: 0.1rem;
+}
+.zhoubianyou .main_1{
+	background: #fff;
+}
+.zhoubianyou .main_1 ul{
+	overflow: hidden;
+	padding-left: 0.1rem;
+}
+.zhoubianyou .main_1 ul li{
+	float: left;
+	font-size: 0.16rem;
+}
+.zhoubianyou .main_1 ul .li1{
+	margin-top: 0.1rem;
+	position: relative;
+	padding-right: 0.1rem;
+	padding-bottom: 0.1rem;
+}
+
+.zhoubianyou .main_1 ul .li1 p::after{
+	position: absolute;
+    content: "";
+    top: 40%;
+    right: 0;
+    width: 1px;
+    height: .2rem;
+    background-color: #aaa;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+.zhoubianyou .main_1 ul .li2{
+	margin-top: 0.1rem;
+	position: relative;
+	padding-right: 0.1rem;
+	padding-left: 0.1rem;
+	padding-bottom: 0.1rem;
+}
+.zhoubianyou .main_1 ul .li2 p::after{
+	position: absolute;
+    content: "";
+    top: 40%;
+    right: 0;
+    width: 1px;
+    height: .2rem;
+    background-color: #aaa;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+.zhoubianyou .main_2{
+	background: #fff;
+	padding-top: 0.15rem;
+	overflow: hidden;
+}
+.zhoubianyou .main_2 ul li{
+	float: left;
+	margin-bottom: 0.1rem;
+	width: 1.34rem;
+	height: 1rem;
+	position: relative;
+	padding-left: 0.1rem;
+}
+.zhoubianyou .main_2 ul li img{
+	width: 100%;
+	height: 100%;
+}
+.zhoubianyou .main_2 ul li p{
+	font-size: 0.15rem;
+	color: #fff;
+}
+.zhoubianyou .main_2 ul li div{
+	position: absolute;
+	left: 0.15rem;
+	top: 0.45rem;
+}
+
+
+
+.zhoubianyou .main_22{
+	background: #fff;
+	padding-top: 0.15rem;
+	overflow: hidden;
+}
+.zhoubianyou .main_22 ul li{
+	float: left;
+	margin-bottom: 0.1rem;
+	width: 1.34rem;
+	height: 1rem;
+	position: relative;
+	padding-left: 0.1rem;
+}
+.zhoubianyou .main_22 ul li img{
+	width: 100%;
+	height: 100%;
+}
+.zhoubianyou .main_22 ul li p{
+	font-size: 0.15rem;
+	color: #fff;
+}
+.zhoubianyou .main_22 ul li div{
+	position: absolute;
+	left: 0.15rem;
+	top: 0.54rem;
+}
+.zhoubianyou .main_3{
+	width: 100%;
+	margin-top: 0.1rem;
+	background: #fff;
+	overflow: hidden;
+}
+.zhoubianyou .main_3 ul li{
+	padding-top: 0.15rem;
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+.zhoubianyou .main_3 ul li div{
+	font-size: 0.12rem;
+}
+.zhoubianyou .main_3 ul li img{
+	width: 0.3rem;
+}
+.zhoubianyou .main_4{
+	height: 0.64rem;
+	margin-top: 0.1rem;
+	background: #fff;
+}
+.zhoubianyou .main_4 ul{
+	white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.zhoubianyou .main_4 ul li{
+	padding-top: 0.1rem;
+	width: 21.5%;
+	text-align: center;	
+	position: relative;
+	display: inline-block;
+}
+.zhoubianyou .main_4 ul li:hover~p{
+	color: #d30775;
+}
+.zhoubianyou .main_4 li p{
+	font-size: 0.18rem;
+}
+.zhoubianyou .main_4 li img{
+	width: 45%;
+}
+.zhoubianyou .main_5{
+	overflow: hidden;
+	padding-top: 0.1rem;
+	width: 100%;
+	background: #fff;
+	font-size: 0;
+}
+.zhoubianyou .main_5 .main5_top{
+	width: 100%;
+}
+.zhoubianyou .main_5 .main5_top img{
+	width: 100%;
+	height: 100%;
+}
+.zhoubianyou .main_5 .main5_bot{
+	font-size: 0;
+	width: 100%;
+	padding-left: 0.1rem;
+	padding-right: 0.1rem;
+}
+.zhoubianyou .main_5 .main5_bot h3{
+	font-size: 0.18rem;
+	color: #000;
+}
+.zhoubianyou .main_5 .main5_bot p{
+	font-size: 0.16rem;
+	color: #aaa;
+}
+.zhoubianyou #footer{
+	font-size: 0.2rem;
+	color: #000;
+	text-align: center;
+	line-height: 0.5rem;
+	width: 100%;
+	height: 0.5rem;
+	margin-bottom: 0.55rem;
+}
+.bian{
+	color: #d30775;
+	border-bottom: 1px solid #d30775;
+	padding-bottom: 0.1rem;	
+	vertical-align: top;
+}
+.hide{
+	display: none;
+}
+.show{
+	display: show;
+}

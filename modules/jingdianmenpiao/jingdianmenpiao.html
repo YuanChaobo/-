@@ -1,0 +1,87 @@
+
+	<div class="jingdianmenpiao">
+	  <div id="myTop">	
+		<header class="top">
+			<a ui-sref= "home">
+				<div class="left">
+					<img src="images/jdmc_topleft.png">
+				</div>
+			</a>
+			<div class="center">
+				<p>景点门票</p>
+			</div>
+			<div class="right">
+				<a ui-sref="home"><img src="images/jdmc_topRight1.png" class="img2"></a>
+				<img src="images/jdmc_topRight2.png" class="img1">
+			</div>
+		</header>
+		<div id="soubig">			
+			<div class="sou">
+				<span class="sou_1">北京</span> &nbsp;&nbsp;| &nbsp;&nbsp;<img src="images/jdmc_fdj.png"> <span class="sou_2">景点名称/城市/主题</span>
+			</div>
+		</div>
+	  </div>
+	  <div class="swiper-container">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide" ng-repeat = "x in arr3" repeat-finish>
+		        	<img src={{x.large_image}}>
+		        </div>
+		    </div>
+		    <!-- 如果需要分页器 -->
+		    <div class="swiper-pagination"></div>		    
+	  </div>
+		<div id="nav">
+			<ul>
+				<li class="li1">
+					<p><img src="images/jdmp_icon1.png"><span>上海景点</span></p>
+				</li>
+				<li class="li2">
+					<p><img src="images/jdmp_icon2.png"><span>周边城市</span></p>
+				</li>
+			</ul>
+		</div>
+		<div id="nav_2">
+			<ul>
+				<li>
+					<img src="images/jdmp_li1.jpg">
+				</li>
+				<li>
+					<img src="images/jdmp_li2.jpg">
+				</li>
+				<li>
+					<img src="images/jdmp_li1.jpg">
+				</li>
+				<li>
+					<img src="images/jdmp_li2.jpg">
+				</li>
+			</ul>
+		</div>
+		<div id="main">
+			<div class="tou">
+				<p>本地景点<span>附近看点</span></p>
+			</div>
+		</div>
+		<div id="myMain">		
+			<div class="main1" ng-repeat = 'item in arr1'>
+				<div class="main_1">
+					<img lazy-src={{item.large_image}}>
+				</div>
+				<div class="main_2">
+					<p class="main_2p1">{{item.title}}</p>
+					<p class="main_2p2"><span class="span1">优惠</span><span class="span2">反￥25</span></p>
+					<p class="main_2p3">97.1%满意</p>
+					<p class="main_2p4">上海浦东兴趣</p>
+				</div>
+				<div class="main_3">
+					<p class="main_3p1"><span style="color: #d30775">￥</span>{{item.price}}<span>起</span></p>
+					<p class="main_3p2">{{item.market_price}}</p>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<p><img src="images/jqmp_foot.png">境外门票<span>查看更多境外门票</span><i class="youji-more"></i></p>
+		</div>
+		<div id="footer_2">
+			<img src="images/jqmphome-footer.png">
+		</div>
+	</div>

@@ -1,0 +1,330 @@
+@charset "UTF-8";
+
+body{
+	font-size: 0.14rem;
+}
+
+.qianzheng_box{
+	width: 100%;
+	overflow: hidden;
+}
+
+/*头部*/
+.qianzheng_box header{
+	height: 0.44rem;
+	width: 100%;
+	line-height: 0.44rem;
+	background: #fafafa;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 3;
+}
+.qianzheng_box header span{
+	background: url(../../images/qz_lt.png) no-repeat center;
+	background-size: 50%;
+	width: 0.5rem;
+	height: 100%;
+	float: left;
+}
+.qianzheng_box header p{
+	font-size: 0.2rem;
+	float: left;
+	width: 3.14rem;
+	text-align: center;
+}
+
+
+/*搜索*/
+.qianzheng_box #search{
+	width: 100%;
+	height: 0.47rem;
+	margin-top: 0.57rem;
+}
+.qianzheng_box #search p{
+	width: 3.8rem;
+	height: 0.35rem;
+	border: 1px solid #eee;
+	margin: 0 auto;
+}
+.qianzheng_box #search p a:first-child{
+	float: left;
+	width: 0.9rem;
+	line-height: 0.35rem;
+	text-align: center;
+	height: 100%;
+	background: url(../../images/qz_bot.png) no-repeat right center;
+	background-size: 15%;
+	padding-right: 0.15rem;
+}
+.qianzheng_box #search p a:last-child{
+	width: 2.8rem;
+	height: 100%;
+	float: left;
+	padding-left: 0.15rem;
+}
+.qianzheng_box #search p a:last-child img{
+	width: 0.22rem;
+	padding-left: 0.05rem;
+	border-left: 1px solid #ccc;
+	float: left;
+	margin-top: 0.08rem;
+	margin-right: 0.05rem;
+}
+.qianzheng_box #search p a:last-child input{
+	height: 100%;
+	width: 2.3rem;
+	border: 0;
+	line-height: 0.35rem;
+	float: left;
+	outline: none;
+}
+
+
+/*banner*/
+.qianzheng_box banner{
+	width: 100%;
+}
+.qianzheng_box banner img{
+	width: 100%;
+	display: block;
+}
+
+
+/*热门签证*/
+.qianzheng_box #qz_info{
+	width: 100%;
+	overflow: hidden;
+}
+.qianzheng_box #qz_info>p{
+	height: 0.4rem;
+	width: 100%;
+	padding-left: 0.1rem;
+	text-align: left;
+	line-height: 0.4rem;
+}
+
+.qianzheng_box #qz_info ul{
+	width: 100%;
+	padding-left: 0.1rem;
+	overflow: hidden;
+}
+.qianzheng_box #qz_info ul li{
+	float: left;
+	width: 1.26rem;
+	margin-right: 0.08rem;
+	position: relative;
+	margin-bottom: 0.1rem;
+}
+.qianzheng_box #qz_info ul li img{
+	width: 100%;
+	display: block;
+}
+.qianzheng_box #qz_info ul li span{
+	position: absolute;
+	width: 0.65rem;
+	height: 0.29rem;
+	background: rgba(0,0,0,0.5);
+	line-height: 0.29rem;
+	color: white;
+	text-align: center;
+	top: 35%;
+	left: 24%;
+}
+.qianzheng_box #qz_info ul li em{
+	font-style: normal;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #FF720E;
+	color: white;
+	font-size: 0.1rem;
+}
+.qianzheng_box #qz_info ul div{
+	height: 0rem;
+	clear: both;
+}
+.qianzheng_box #qz_info ul p{
+	width: 1.5rem;
+	height: 0.3rem;
+	margin: 0.2rem auto;
+	clear: both;
+	text-align: center;
+	line-height: 0.28rem;
+	border: 1px solid #d30775;
+	border-radius: 0.15rem;
+}
+.qianzheng_box #qz_info ul p a{
+	color: #d30775;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+
+/*本月特惠*/
+.qianzheng_box #qz_benyueth{
+	width: 100%;
+	overflow: hidden;
+}
+.qianzheng_box #qz_benyueth>p{
+	width: 100%;
+	height: 0.3rem;
+	line-height: 0.3rem;
+	text-align: left;
+	background: #fafafa;
+	border-top: 1px solid #ddd;
+	padding-left: 0.1rem;
+}
+
+.qianzheng_box #qz_benyueth ul{
+	overflow: hidden;
+	width: 100%;
+}
+.qianzheng_box #qz_benyueth ul li{
+	height: 0.96rem;
+	width: 100%;
+}
+.qianzheng_box #qz_benyueth ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: 0.1rem;
+	border-bottom: 1px solid #ddd;
+	position: relative;
+}
+.qianzheng_box #qz_benyueth ul li a img{
+	width: 1.05rem;
+	float: left;
+	margin-right: 0.1rem;
+}
+.qianzheng_box #qz_benyueth ul li a div{
+	color: #888;
+}
+.qianzheng_box #qz_benyueth ul li a div p{
+	line-height: 0.26rem;
+} 
+.qianzheng_box #qz_benyueth ul li a div p:nth-of-type(2){
+	color: #999;
+}
+.qianzheng_box #qz_benyueth ul li a div span{
+	position: absolute;
+	right: 0.2rem;
+	bottom: 0.05rem;
+	color: #d30775;
+}
+.qianzheng_box #qz_benyueth ul li a div span label{
+	font-size: 0.2rem;
+	color: #d30775;
+}
+
+
+/*英国比利时、全球、韩国签证*/
+.qianzheng_box #qz_xiangqing{
+	width: 100%;
+	background: #ddd;
+	overflow: hidden;
+}
+.qianzheng_box #qz_xiangqing>div{
+	height: 0.1rem;
+	background: #ddd;
+	width: 100%;
+}
+.qianzheng_box #qz_xiangqing ul{
+	width: 100%;
+	border-bottom: 1px solid #eee;
+	overflow: hidden;
+}
+.qianzheng_box #qz_xiangqing ul li{
+	float: left;
+	width: 50%;
+}
+.qianzheng_box #qz_xiangqing ul li a{
+	width: 100%;
+	height: 100%;
+}
+.qianzheng_box #qz_xiangqing ul li a img{
+	width: 100%;
+	display: block;
+	border: 1px solid #eee;
+	border-bottom: 0;
+	border-left: 0;
+}
+
+.qianzheng_box #qz_xiangqing>p{
+	height: 0.4rem;
+	width: 100%;
+	line-height: 0.4rem;
+	margin: 0.1rem 0;
+	background: white;
+	overflow: hidden;
+	padding-left: 0.1rem;
+	border-bottom: 1px solid #ddd;
+}
+.qianzheng_box #qz_xiangqing>p>span{
+	float: left;
+}
+.qianzheng_box #qz_xiangqing>p>a{
+	float: right;
+	padding-right: 0.2rem;
+	margin-right: 0.2rem;
+	background: url(../../images/qz_gt.png) no-repeat right ;
+	background-size: 10%;
+}
+.qianzheng_box #qz_xiangqing>p>a span{
+	color: #d30775;
+}
+
+
+/*办签流程*/
+.qianzheng_box #qz_liucheng{
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 0.5rem;
+}
+.qianzheng_box #qz_liucheng>p{
+	height: 0.4rem;
+	line-height: 0.4rem;
+	text-align: center;
+}
+.qianzheng_box #qz_liucheng ul{
+	width: 100%;
+	overflow: hidden;
+	font-size: 0.12rem;
+}
+.qianzheng_box #qz_liucheng ul li{
+	float: left;
+	width: 25%;
+	text-align: center;
+	height: 1rem;
+}
+.qianzheng_box #qz_liucheng ul li img{
+	width: 60%;
+	display: block;
+	margin: 0 auto;
+}
+.qianzheng_box #qz_liucheng ul li span{
+	font-size: 0.12rem;
+}
+
+
+/*固定定位 返回顶部*/
+.qianzheng_box #qz_fixed{
+	position: fixed;
+	background: #d30775;
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	bottom: 1.4rem;
+	right: 0.3rem;
+	opacity: 0.9;
+	display: none;
+}
+.qianzheng_box #qz_fixed a{
+	width: 100%;
+	height: 100%;
+}
+.qianzheng_box #qz_fixed a img{
+	width: 100%;
+}

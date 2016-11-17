@@ -1,0 +1,77 @@
+
+	
+	<div class="dzy_box">
+
+		<header>
+			<span></span>
+			<p>定制游</p>
+		</header>
+
+		<div id="banner">
+			<div ng-repeat="x in arr2">
+				<img ng-src={{x.image}} alt="">
+			</div>
+		</div>
+
+		<div id="dzy_special">
+			<div>
+				<span>特色定制</span>
+				<div>
+					<span>389416</span>名游客定制到过<span>88</span>个国家
+				</div>
+				<a href="###">更多</a>
+			</div>
+			<p></p>
+		</div>
+
+		<nav>
+			<ul class="top">
+				<li>
+					<a href="###" class="demo">度假旅游</a>
+				</li>
+				<li>
+					<a href="###">拓展徒步</a>
+				</li>
+				<li>
+					<a href="###">团队探险</a>
+				</li>
+				<li>
+					<a href="###">商务会议</a>
+				</li>
+			</ul>
+			<ul class="bottom">
+				<li>
+					<div>
+						<img src="images/dzy_xini.jpg" alt="">
+						<p><img src="./images/lvmama_small.jpg" alt="">澳大利亚9天7晚定制</p>
+					</div>
+					<div>
+						<img src="images/dzy_huoche.jpg" alt="">
+						<p><img src="images/lvmama_small.jpg" alt="">斯里兰卡8天7晚高尔夫之旅</p>
+					</div>
+				</li>
+			</ul>
+		</nav>
+
+		<div id="dzy_info">
+			<p>当季去哪儿玩<span>专属定制，说走就走</span></p>
+
+			<ul>
+				<li ng-repeat="x in arr">
+					<a href="###">
+						<img lazy-src={{x.image}} alt="">
+						<p>{{x.title}}</p>
+					</a>
+				</li>
+			</ul>
+			
+			<span>已加载完全部内容</span>
+
+		</div>
+
+		<footer>
+			<p><a href="###">电话咨询</a></p>
+			<p><a href="###">我要定制</a></p>
+		</footer>
+
+	</div>
