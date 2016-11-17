@@ -11,7 +11,4 @@ angular.module("authstr",[])
 		$scope.fanhui=function(){
 			history.back();
 		}
-		$(".daishenhe header").on("click","img",function(){
-			history.back();
-		})
 	})

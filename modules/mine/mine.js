@@ -8,5 +8,4 @@ var app=angular.module("mine",[]);
 					})
 	})
 	app.controller("IndexMine",function($scope){
-
 	})

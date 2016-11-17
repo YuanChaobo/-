@@ -1,6 +1,8 @@
 .chujinyou{
 	background: #f1f1f1;
 	font-size: 0.16rem;
+	margin-bottom: 0.55rem;
+
 }
 .chujinyou .top{
 	position: fixed;
@@ -170,6 +172,7 @@
 	padding: 0.05rem 0.1rem;
 	border-radius: 15px;
 	text-align: center;
+	margin-bottom: 0.1rem;
 }
 .chujinyou .main2{
 	width: 100%;
@@ -215,13 +218,14 @@
 	font-size: 0.18rem;
 	margin-top: 0.05rem;
 	margin-bottom: 0.05rem;
-	color: #000;
+	color: #333;
 	padding-left: 0.1rem;
+	font-weight: normal;
 }
 .chujinyou .main2 .ul2 li p{
 	padding-left: 0.1rem;
 	padding-right: 0.1rem;
-	font-size: 0.16rem;
+	font-size: 0.14rem;
 	color: #aaa;
 }
 #footer{
@@ -247,4 +251,3 @@
 .chujinyou .Saleabroad .Saleabroad_d1{
 	color: #d30775;
 }
-

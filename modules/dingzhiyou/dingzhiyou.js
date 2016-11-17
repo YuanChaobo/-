@@ -37,3 +37,4 @@ angular.module('dingzhiyou',['me-lazyload'])
     }
   }
 })
+

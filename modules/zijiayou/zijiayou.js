@@ -19,7 +19,6 @@ angular.module('zijiayou',['me-lazyload'])
           $(".zjy_box header").on("click","span",function(){
               history.back();
           });
-
           // tab事件
           $("#zjy_info .top").on("click","a",function(){
               $(this).addClass("color").closest("li").siblings("li").children("a").removeClass("color");

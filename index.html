@@ -8,37 +8,36 @@
           <link rel="stylesheet" type="text/css" href="css/reset.css"/>
           <link rel="stylesheet" type="text/css" href="css/common.css"/>
           <link rel="stylesheet" type="text/css" href="./lib/swiper-3.4.0.min.css"/>
-          <script type="text/javascript" src="lib/rem.js"></script>
+          <script type="text/javascript" src="./lib/rem.js"></script>
           <script type="text/javascript" src="./lib/angular.min.js"></script>
           <script type="text/javascript" src="./lib/angular-ui-router.js"></script>
           <script type="text/javascript" src="./lib/angular-css.min.js"></script>
           <script type="text/javascript" src="./lib/jquery-1.11.2.js"></script>
 </head>
 <body>
-	
 	<div id="container">
 		<div ui-view></div>
 	</div>
-	<div class="index">
+	<div class="index" ng-controller = "myCtrl">
 		<footer>
 			<a ui-sref = "home">
-				<img src="images/index_home(1).png"/>
-				<p class="font_color">首页</p>
+				<img src="images/gray0.png"/>
+				<p>首页</p>
 			</a>
 			<a ui-sref = "remai">
-				<img src="images/index_remai.png"/>
+				<img src="images/gray1.png"/>
 				<p>热卖</p>
 			</a>
 			<a ui-sref = "mudidi">
-				<img src="images/index_mudidi.png"/>
+				<img src="images/gray2.png"/>
 				<p>目的地</p>
 			</a>
 			<a ui-sref = "zhoubian">
-				<img src="images/index_zhou.png"/>
+				<img src="images/gray3.png"/>
 				<p>周边</p>
 			</a>
 			<a ui-sref = "mine">
-				<img src="images/index_mine.png"/>
+				<img src="images/gray4.png"/>
 				<p>我的</p>
 			</a>
 		</footer>

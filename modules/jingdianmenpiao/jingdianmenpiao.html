@@ -9,8 +9,8 @@
 				<p>景点门票</p>
 			</div>
 			<div class="right">
-				<img lazy-src="images/jdmc_topRight1.png" class="img2">
-				<img lazy-src="images/jdmc_topRight2.png" class="img1">
+				<a ui-sref="home"><img src="images/jdmc_topRight1.png" class="img2"></a>
+				<img src="images/jdmc_topRight2.png" class="img1">
 			</div>
 		</header>
 		<div id="soubig">			
@@ -57,7 +57,6 @@
 			<div class="main1" ng-repeat = 'item in arr1'>
 				<div class="main_1">
 					<img lazy-src={{item.large_image}}>
-
 				</div>
 				<div class="main_2">
 					<p class="main_2p1">{{item.title}}</p>

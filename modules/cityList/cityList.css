@@ -2,6 +2,7 @@
 .mod_city{
 	font-size: 0.16rem;
 	background:#fafafa;
+	margin-bottom: 0.55rem;
 }
 /*标题*/
 .mod_city .dingwei{
@@ -101,7 +102,6 @@
 	background: #fff;
 	display: none;	
 }
-
 .mod_city .ABC  ul li{
 	border-bottom: 1px solid #aaa;
 }

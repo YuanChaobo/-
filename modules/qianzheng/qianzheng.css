@@ -154,9 +154,9 @@ body{
 	line-height: 0.28rem;
 	border: 1px solid #d30775;
 	border-radius: 0.15rem;
-	color: #d30775
 }
 .qianzheng_box #qz_info ul p a{
+	color: #d30775;
 	width: 100%;
 	height: 100%;
 	display: block;
@@ -307,6 +307,7 @@ body{
 .qianzheng_box #qz_liucheng ul li span{
 	font-size: 0.12rem;
 }
+
 /*固定定位 返回顶部*/
 .qianzheng_box #qz_fixed{
 	position: fixed;

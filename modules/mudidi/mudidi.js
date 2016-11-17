@@ -8,5 +8,10 @@ angular.module('mudidi',[])
         })
     })
     .controller('MudidiCtrl',['$scope',function($scope){
-          
+          $(".mudidi #main>.left>ul").on("click","li",function(){
+          		$(this).addClass("change_color").find("span").addClass("display").end().siblings("li").removeClass("change_color").find("span").removeClass("display");
+          });
+          $scope.clickMe = function(){
+          	location.href = "#/cityList"
+          }
      }])

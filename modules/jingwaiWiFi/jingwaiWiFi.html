@@ -47,8 +47,7 @@
 					<span>澳洲</span>
 				</a>
 			</div>
-
-			<span>查看全部地区</span>
+			<a ui-sref="CityList">查看全部地区</a>
 		</div>
 
 		<div class="jingwai_play">
@@ -85,53 +84,16 @@
 
 		<div class="info">
 			<div class="top">
-				<a href="###" class="demo">人气推荐</a>
-				<a href="###">当季精选</a>
+				<a class="demo">人气推荐</a>
+				<a>当季精选</a>
 			</div>
-
 			<ul>
-				<li>
+				<li ng-repeat = "x in arr">
 					<a href="###">
-						<img src="./images/悉尼歌剧院.jpg" alt="">
+						<img ng-src=""src={{x.large_image}}>
 						<div>
-							<p>澳大利亚塔斯马尼亚4晚5日游<span><label>￥4680</label>起</span></p>
-							<p>【1人成行 天天发团】霍巴特、亚瑟港、酒杯湾、薰衣草农场</p>
-						</div>
-					</a>
-				</li>
-				<li>
-					<a href="###">
-						<img src="./images/悉尼歌剧院.jpg" alt="">
-						<div>
-							<p>澳大利亚塔斯马尼亚4晚5日游<span><label>￥4680</label>起</span></p>
-							<p>【1人成行 天天发团】霍巴特、亚瑟港、酒杯湾、薰衣草农场</p>
-						</div>
-					</a>
-				</li>
-				<li>
-					<a href="###">
-						<img src="./images/悉尼歌剧院.jpg" alt="">
-						<div>
-							<p>澳大利亚塔斯马尼亚4晚5日游<span><label>￥4680</label>起</span></p>
-							<p>【1人成行 天天发团】霍巴特、亚瑟港、酒杯湾、薰衣草农场</p>
-						</div>
-					</a>
-				</li>
-				<li>
-					<a href="###">
-						<img src="./images/悉尼歌剧院.jpg" alt="">
-						<div>
-							<p>澳大利亚塔斯马尼亚4晚5日游<span><label>￥4680</label>起</span></p>
-							<p>【1人成行 天天发团】霍巴特、亚瑟港、酒杯湾、薰衣草农场</p>
-						</div>
-					</a>
-				</li>
-				<li>
-					<a href="###">
-						<img src="./images/悉尼歌剧院.jpg" alt="">
-						<div>
-							<p>澳大利亚塔斯马尼亚4晚5日游<span><label>￥4680</label>起</span></p>
-							<p>【1人成行 天天发团】霍巴特、亚瑟港、酒杯湾、薰衣草农场</p>
+							<p>{{x.title}}<span><label>￥{{x.price}}</label>起</span></p>
+							<p>{{x.content}}</p>
 						</div>
 					</a>
 				</li>

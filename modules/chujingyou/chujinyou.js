@@ -18,8 +18,14 @@ angular.module('chujingyou',[])
              css:'./modules/chujingyou/chujinyou.css'
           })
     })
-    .controller('chujingyouCtrl',['$scope',function($scope){
+    .controller('chujingyouCtrl',['$scope','$http',function($scope,$http){
           $scope.getback=function(){
             history.back();
           }
+          $http.get('./JSON/guoneiyou.json').success(function(data){
+            $scope.arr = data.datas;
+          });
+          $(".chujinyou #myTop .right .img2").on("click",function(){
+              location.href = "#/home";
+          });
      }])

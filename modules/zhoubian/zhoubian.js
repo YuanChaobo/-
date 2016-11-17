@@ -8,5 +8,7 @@ angular.module('zhoubian',[])
         })
     })
     .controller('ZhoubianCtrl',['$scope',function($scope){
-          
+          $(".zhoubian #nav").on("click","a",function(){
+          	$(this).addClass("change_color").siblings("a").removeClass("change_color");
+          });
      }])

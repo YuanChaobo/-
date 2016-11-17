@@ -130,7 +130,6 @@
 		</div>
 		<!-- 小轮播 -->
 		<div class="bo">
-
 			<div>
 				<p class="bo_p1">
 				<span>HOT</span>抽我，快抽我，天天有惊喜！
@@ -145,10 +144,6 @@
 				<span>HOT</span>抽我，快抽我，天天有惊喜！
 				</p>
 			</div>
-			
-			<p class="bo_p2">上海迪士尼</p>
-			<p class="bo_p2">上海迪士尼</p>
-			<p class="bo_p2">上海迪士尼</p>
 		</div>
 		<!-- 大会场 -->
 		<div class="huichang">
@@ -181,12 +176,10 @@
 			<p>
 				<span>手机专享</span>
 			</p>
-
 			<img lazy-src="./images/1470391082_44765.png">
 			<img lazy-src="./images/1477560428_27109.png">
 			<img lazy-src="./images/1478761657_30573.jpg">
 			<img lazy-src="./images/1478758348_54060.png">
-
 		</div>
 		<!-- 限时抢购 -->
 		<div class="rushpurchase">
@@ -281,9 +274,8 @@
 					</div>
 				</li>
 			</ul>
-			</div>
-			
-			
+		  </div>			
+
 		</div>
 		<!-- 发现更多精彩 -->
 		<div class="gdjc">
@@ -309,8 +301,22 @@
 		</div>
 		
 		<!-- 回到顶部 -->
-		<div class="topc">
+		<div class="topc" style="display: none;">
 			<img src="./images/向上.png">
 			<p>顶部</p>
 		</div>
 	</div>
+	<!-- 图片轮播相关之知识-->
+	<script type="text/javascript" src="./swiper-3.4.0.min.js"></script>
+	<script>        
+		  var mySwiper = new Swiper ('.swiper-container', {
+		    direction: 'vertical',
+		    loop: true,
+		    autoplay:1000;
+		    // 如果需要分页器
+		    pagination: '.swiper-pagination',
+		    
+		    // 如果需要滚动条
+		    scrollbar: '.swiper-scrollbar',
+		  })        
+	 </script>

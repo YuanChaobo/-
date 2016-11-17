@@ -23,6 +23,7 @@ body{
 	font-size: 0.2rem;
 	vertical-align: middle;
 }
+
 .baitiao>div{
 	background: #fff;
 	width: 100%;
@@ -71,7 +72,6 @@ body{
 	color: #1E90FF;
 	vertical-align: middle;
 }
-
 .baitiao .submit{
 	width: 100%;
 	height: 0.5rem;

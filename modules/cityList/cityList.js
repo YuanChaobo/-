@@ -1,3 +1,4 @@
+
 var app=angular.module("cityList",[]);
 	app.config(function($stateProvider){
 		$stateProvider.state('CityList',{
@@ -15,7 +16,4 @@ var app=angular.module("cityList",[]);
 			history.back();
 		}
 	}])
-	// $(".ctlink").on("click",function(){
-	// 	$(this).find("ul").show();
-	// 	console.log("a");
-	// })
+

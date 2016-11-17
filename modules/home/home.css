@@ -39,6 +39,11 @@
 	width: 88%;
 	height: 0.3rem;
 	margin-left: 9%;
+	background: rgba(0,0,0,0);
+	border: 1px solid #BDBDBD;
+	outline: medium;
+	border-radius: 0.02rem;
+	padding-left: 0.1rem;
 }
 .mod_home  .home_location .my{
 	float: right;
@@ -47,7 +52,6 @@
 	background: url("../../images/pp.png") no-repeat center;
 	background-size: 40%;
 }
-
 .mod_home .swiper-slide{
 	width: 100%;
 }
@@ -234,7 +238,7 @@
 .mod_home .bo .bo_p1{
 	float: left;
 }
-.mod_home .bo .bo_p1>span{
+.mod_home .bo .bo_p1 span{
 	display: block;
 	text-align: center;
 	float: left;
@@ -369,10 +373,18 @@
 	float: left;
 	text-align: center;
 }
+.mod_home  .rushpurchase .rushpurchase_ul li>img{
+	width: 100%;
+}
 .mod_home  .rushpurchase .rushpurchase_ul li>p{
 	height: 0.4rem;
 	line-height: 0.2rem;
 	width: 90%;
+	display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
 }
 .mod_home .rushpurchase .rushpurchase_ul li>div{
 	height: 0.3rem;
