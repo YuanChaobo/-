@@ -1,0 +1,5 @@
+@charset "utf-8";
+*{margin: 0;padding: 0;box-sizing: border-box;color: #666;font-family: "微软雅黑";}
+a{text-decoration: none;color: #666;}
+ul,ol{list-style: none;}
+img{border: none;}

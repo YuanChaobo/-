@@ -1,0 +1,188 @@
+@charset "utf-8";
+body{
+	background: #FAFAFA;
+}
+*{font-size: 0.05rem;}
+.zhoubian {
+	margin-bottom: 0.55rem;
+}
+.zhoubian header{
+	width: 100%;
+	height: 0.55rem;
+	line-height: 0.55rem;
+	text-align: right;
+	padding: 0 0.1rem;
+	font-size: 0;
+	position: fixed;
+	top: 0;
+	z-index: 2;
+	background: #FAFAFA;
+}
+.zhoubian header>span{
+	font-size: 0.18rem;
+	font-weight: bold;
+	color: #333333;
+	display: inline-block;
+	width: 85%;
+	text-align: center;
+	vertical-align: middle;
+}
+.zhoubian header>img{
+	height: 52%;
+	vertical-align: middle;
+	margin-bottom: 0.05rem;
+}
+.zhoubian #nav{
+	width: 100%;
+	background: #fff;
+	border-top: 1px solid #EEEEEE;
+	border-bottom: 1px solid #EEEEEE;
+	font-size: 0;
+	position: fixed;
+	top: 0.55rem;
+}
+.zhoubian #nav>a{
+	padding: 0.1rem 0.08rem;
+	font-size: 0.18rem;
+	letter-spacing: 0.01rem;
+	margin: 0 0.42rem;
+	display: inline-block;
+}
+.zhoubian #nav>.change_color{
+	border-bottom: 2px solid #D30775;
+	color: #D30775;
+}
+.zhoubian #main{
+	width: 100%;
+	background: #fff;
+	margin-top: 1.01rem;
+}
+.zhoubian #main>ul>li{
+	width: 100%;
+	border-bottom: 1px solid #EEEEEE;
+	padding: 0.1rem;
+	overflow: hidden;
+}
+.zhoubian #main>ul>li>img{
+	width: 34%;
+}
+.zhoubian #main>ul>li>div{
+	display: inline-block;
+	width: 30%;
+	margin-left: 0.05rem;
+	vertical-align: top;
+}
+.zhoubian #main>ul>li>.div1>p{
+	line-height: 0.35rem;
+}
+.zhoubian #main>ul>li>.div1>.p1{
+	font-size: 0.18rem;
+	color: #333333;
+}
+.zhoubian #main>ul>li>.div1>.p2{
+	color: #D30775;
+    font-size: 0.14rem;
+    padding: 0.01rem 0.02rem;
+    border: 1px solid #D30775;
+    width: 0.4rem;
+    letter-spacing: 0.02rem;
+    text-align: center;
+    border-radius: 0.03rem;
+    display: inline;
+}
+.zhoubian #main>ul>li>.div1>.p3{
+	font-size: 0.14rem;
+}
+.zhoubian #main>ul>li>.div1>.p4{
+	font-size: 0.14rem;
+}
+.zhoubian #main>ul>li>.div2{
+	text-align: right;
+	margin-top: 0.4rem;
+}
+.zhoubian #main>ul>li>.div2>p{
+	line-height: 0.3rem;
+	font-size: 0;
+}
+.zhoubian #main>ul>li>.div2>.p1>.s1{
+	font-size: 0.14rem;
+	color: #D30775;
+}
+.zhoubian #main>ul>li>.div2>.p1>.s2{
+	font-size: 0.2rem;
+	color: #D30775;
+}
+.zhoubian #main>ul>li>.div2>.p1>.s3{
+	font-size: 0.14rem;
+}
+.zhoubian #main>ul>li>.div2>.p2{
+	font-size: 0.14rem;
+	text-decoration: line-through;
+}
+.zhoubian #main>ul>li>.div2>.p3{
+	font-size: 0.14rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

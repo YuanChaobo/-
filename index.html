@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<title>index</title>
+	<meta charset="utf-8">
+	 <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+          <link rel="stylesheet" type="text/css" href="css/common.css"/>
+          <link rel="stylesheet" type="text/css" href="lib/swiper-3.4.0.min.css"/>
+          <script type="text/javascript" src="lib/rem.js"></script>
+          <script type="text/javascript" src="./lib/angular.min.js"></script>
+          <script type="text/javascript" src="./lib/angular-ui-router.js"></script>
+          <script type="text/javascript" src="./lib/angular-css.min.js"></script>
+          <script src="jquery-1.11.2.js"></script>
+          <script src="./lib/me-lazyload.js"></script>
+
+         
+</head>
+<body>
+	<ion-side-menus>  
+  <!--主页面-->  
+  <ion-side-menu-content class="bar-positive">  
+    <!--主页面顶部bar-->  
+    <ion-nav-bar class="bar-positive">  
+      <ion-nav-back-button class="button-clear"><i class="icon ion-chevron-left"></i></ion-nav-back-button>  
+    </ion-nav-bar>  
+    <!--主页面内容 关键的菜单内容name要对应到是菜单内容的页面-->  
+    <ion-nav-view name="menuContent" animation="slide-left-right"></ion-nav-view>  
+  </ion-side-menu-content>  
+  <!--侧滑页面-->  
+  <ion-side-menu side="left">  
+    <!--侧滑页面顶部bar-->  
+    <ion-header-bar align-title="center" class="bar-dark">  
+      <h1 class="title">需求</h1>  
+      <div class="buttons pull-right" nav-clear menu-close ng-click="settings()">  
+        <button class="button button-icon icon ion-gear-b"></button>  
+      </div>  
+    </ion-header-bar>  
+    <!--侧滑页面主要内容-->  
+    <ion-content class="has-header">  
+      <ion-list>  
+        <!--item href的构成：1，#本页面  2，app本页面链接   3，todolist/{{menu.groupId}}列表页面链接（没有冒号）-->  
+        <ion-item nav-clear menu-close ng-repeat="menu in menus" href="#/app/todolist/{{menu.groupId}}">  
+          
+          <i class="icon ion-android-clock"></i>  {{menu.title}} <span class="badge" ng-if="menu.badge>0">{{menu.badge}}</span>  
+        </ion-item>  
+      </ion-list>  
+    </ion-content>  
+      
+  </ion-side-menu>  
+</ion-side-menus>  
+
+	<div id="container">
+		<div ui-view></div>
+	</div>
+	<div class="index">
+		<footer>
+			<a ui-sref = "home">
+				<img src="images/index_home(1).png"/>
+				<p class="font_color">首页</p>
+			</a>
+			<a ui-sref = "remai">
+				<img src="images/index_remai.png"/>
+				<p>热卖</p>
+			</a>
+			<a ui-sref = "mudidi">
+				<img src="images/index_mudidi.png"/>
+				<p>目的地</p>
+			</a>
+			<a ui-sref = "zhoubian">
+				<img src="images/index_zhou.png"/>
+				<p>周边</p>
+			</a>
+			<a ui-sref = "mine">
+				<img src="images/index_mine.png"/>
+				<p>我的</p>
+			</a>
+		</footer>
+	</div>
+	<script type="text/javascript" src="lib/swiper-3.4.0.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+	<script type="text/javascript" src="modules/home/home.js"></script>
+	<script type="text/javascript" src="modules/remai/remai.js"></script>
+	<script type="text/javascript" src="modules/mudidi/mudidi.js"></script>
+	<script type="text/javascript" src="modules/zhoubian/zhoubian.js"></script>
+	<script type="text/javascript" src="modules/jingwaiWiFi/jingwaiWiFi.js"></script>
+	<script type="text/javascript" src="modules/pinzhiyiri/pinzhiyiri.js"></script>
+	<script type="text/javascript" src="modules/gengduo/gengduo.js"></script>
+	<script type="text/javascript" src="modules/jingdianmenpiao/jindianmengpiao.js"></script>
+	<script type="text/javascript" src="modules/chujingyou/chujinyou.js"></script>
+	<script type="text/javascript" src="modules/guoneiyou/guonieyou.js"></script>
+	<script type="text/javascript" src="modules/zhoubianyou/zhoubianyou.js"></script>
+	<script type="text/javascript" src="modules/dujiajiudian/dujiajiudian.js"></script>
+	<script type="text/javascript" src="modules/youlun/youlun.js"></script>
+	<script type="text/javascript" src="modules/feijipiao/feijipiao.js"></script>
+	<script type="text/javascript" src="modules/huochepiao/huochepiao.js"></script>
+	<script type="text/javascript" src="modules/mine/mine.js"></script>
+	<script type="text/javascript" src="modules/baitiao/baitiao.js"></script>
+	<script type="text/javascript" src="modules/daishenhe/daishenhe.js"></script>
+	<script type="text/javascript" src="modules/cityList/cityList.js"></script>
+	<script type="text/javascript" src="modules/dingzhiyou/dingzhiyou.js"></script>
+	<script type="text/javascript" src="modules/qianzheng/qianzheng.js"></script>
+	<script type="text/javascript" src="modules/zijiayou/zijiayou.js"></script>
+	<script type="text/javascript" src="modules/zhutiyou/zhutiyou.js"></script>
+</body>
+</html>

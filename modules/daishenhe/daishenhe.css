@@ -1,0 +1,182 @@
+@charset "utf-8";
+body{
+	background: #FAFAFA;
+}
+.daishenhe{
+	font-size: 0;
+}
+.daishenhe header{
+	height: 0.5rem;
+	line-height: 0.5rem;
+	border-bottom: 1px solid #BDBDBD;
+	padding: 0 0.1rem;
+}
+.daishenhe header>img{
+	width: 7%;
+	vertical-align: middle;
+}
+.daishenhe header>span{
+	display: inline-block;
+	width: 90%;
+	text-align: center;
+	font-size: 0.2rem;
+	vertical-align: middle;
+}
+.daishenhe #main{
+	width: 100%;
+	background: #fff;
+}
+.daishenhe #main>.div1{
+	width: 100%;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	padding: 0 0.1rem;
+	border-bottom: 1px solid #eee;
+}
+.daishenhe #main>.div1>.s1{
+	font-size: 0.14rem;
+}
+.daishenhe #main>.div1>.s2{
+	display: inline-block;
+	width: 73%;
+	text-align: right;
+	color: #D30775;
+	font-size: 0.14rem;
+}
+.daishenhe #main>.div2{
+	width: 100%;
+	border-bottom: 1px solid #eee;
+	padding: 0.1rem;
+}
+.daishenhe #main>.div2>div{
+	display: inline-block;
+}
+.daishenhe #main>.div2>.div1{
+	width: 11%;
+	text-align: center;
+	margin-right: 0.2rem;
+}
+.daishenhe #main>.div2>.div1>img{
+	width: 90%;
+	margin-left: 0.15rem;
+}
+.daishenhe #main>.div2>.div1>p{
+	width: 100%;
+	font-size: 0.14rem;
+	text-align: center;
+}
+.daishenhe #main>.div2>.div2{
+	width: 80%;
+}
+.daishenhe #main>.div2>.div2>p{
+	margin-bottom: 0.05rem;
+}
+.daishenhe #main>.div2>.div2>.p1{
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 0.15rem;
+	color: #333;
+}
+.daishenhe #main>.div2>.div2>.p2{
+	width: 100%;
+}
+.daishenhe #main>.div2>.div2>.p2>span{
+	font-size: 0.14rem;
+}
+.daishenhe #main>.div2>.div2>.p3>.s1{
+	font-size: 0.14rem;
+}
+.daishenhe #main>.div2>.div2>.p3>.s2{
+	font-size: 0.14rem;
+	color: #D30775;
+}
+.daishenhe #main>.div3{
+	width: 100%;
+	border-bottom: 1px solid #eee;
+	padding: 0.1rem;
+}
+.daishenhe #main>.div3>span{
+	display: inline-block;
+	width: 25%;
+	text-align: center;
+	padding: 0.05rem 0;
+	font-size: 0.14rem;
+	color: #BDBDBD;
+	border: 1px solid #bdbdbd;
+	border-radius: 0.05rem;
+	margin-right: 0.05rem;
+}
+.daishenhe #main>.div3 .change_style{
+	color: #fff;
+	background: #D30775;
+	border: 1px solid #D30775;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

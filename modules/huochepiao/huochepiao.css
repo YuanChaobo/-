@@ -1,0 +1,197 @@
+@charset "UTF-8";
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+.mod_ticket{
+	font-size: 0.16rem;
+}
+.mod_ticket .ticket_div{
+	width: 100%;
+	position: relative;
+}
+.mod_ticket .ticket_div .div_c{
+	width: 200%;
+	overflow: hidden;
+}
+.mod_ticket .ticket_div .ticket_img{
+	float: left;
+}
+.mod_ticket .ticket_div .ticket_img img{
+	width: 50%;
+}
+.mod_ticket .ticket_div .goBeck{
+	position: absolute;
+	top: 0.1rem;
+	left: 0.1rem;
+	width: 0.3rem;
+}
+.mod_ticket .ticket_div .goHome{
+	position: absolute;
+	top: 0.1rem;
+	right: 0.1rem;
+	width: 0.3rem;
+}
+/*优惠*/
+.mod_ticket .favorable{
+	height:0.4rem;
+	line-height: 0.4rem;
+	background: #fffada;
+}
+.mod_ticket .favorable img{
+	float: left;
+	left: 0.1rem;
+	width: 0.2rem;
+	margin:0.1rem 0.1rem;
+}
+.mod_ticket .favorable .favorable_img{
+	float: right;
+	width: 0.1rem;
+	right: 0.1rem;
+	top: 0.05rem;
+}
+.mod_ticket .site{
+	width: 90%;
+	margin:0 auto;
+	overflow: hidden;
+}
+.mod_ticket .site .site_p1{
+	width: 40%;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	font-size: 0.3rem;
+	border-bottom:1px solid #999;
+	float: left;
+	margin-left: 0.2rem;
+}
+.mod_ticket .site .site_p2{
+	width: 14%;
+	height: 0.6rem;
+	text-align: center;
+	float: left;
+	background: url(../../images/train_c1.png) no-repeat 7px 4px;
+	background-size: 70%;
+}
+.mod_ticket .site .site_p2 img{
+	width: 0.2rem;
+	margin-top: 0.1rem;
+}
+.mod_ticket .site .site_p3{
+	width: 40%;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	text-align: right;
+	font-size: 0.3rem;
+	border-bottom: 1px solid #999;
+	float: right;
+}
+.mod_ticket .ticket_time{
+	width: 90%;
+	margin:0 auto;
+	overflow: hidden;
+}
+.mod_ticket .ticket_time div{
+	height: 0.6rem;
+	border-bottom: 1px solid #666;
+}
+.mod_ticket .ticket_time .time_div{
+	height: 0.5rem;
+	line-height: 0.5rem;
+	position: relative;
+}
+.mod_ticket .ticket_time .time_div span{
+	display: inline-block;
+	width: 0.3rem;
+	height: 0.3rem;
+	margin:0.1rem 0.1rem;
+	background: url("../../images/sprite40.png") no-repeat 0% 38.5%;
+	background-size: 100%;
+}
+.mod_ticket .ticket_time .time_div label{
+	display: inline-block;
+	vertical-align: top;
+}
+.mod_ticket .ticket_time .time_div p{
+	float: right;
+	margin:0  0.2rem; 
+}
+.mod_ticket .ticket_time .time_div p::after{
+	content: "";
+	width: 0.1rem;
+	height: 0.1rem;
+	position: absolute;
+	top: 0.2rem;
+	right: 0.1rem;
+	border-top: 1px solid #666;
+	border-right: 1px solid #666;
+	transform:rotate(45deg);
+}
+.mod_ticket .ticket_time .time_div1 .div1_highspeed{
+	height: 0.6rem;
+	line-height: 0.6rem;
+}
+.mod_ticket .ticket_time .time_div1 .div1_highspeed span{
+	display: inline-block;
+	width: 0.2rem;
+	height: 0.2rem;
+	border:1px solid #999;
+	margin: 0.2rem 0 0 0.1rem;
+}
+.mod_ticket .ticket_time .time_div1 .div1_highspeed label{
+	vertical-align: top;
+}
+.mod_ticket .ticket_time .time_div1 .div1_highspeed p{
+	float: right;
+	margin-right: 0.3rem
+}
+.mod_ticket .ticket_time .time_div1 .div1_highspeed p img{
+	width: 0.1rem;
+	margin-left: 0.05rem;
+}
+.mod_ticket .ticket_time .time_div1 .highspeed_div1 div p{
+	width: 50%;
+	float: left;
+	line-height: 0.6rem;
+}
+.mod_ticket .ticket_time .time_div1 .highspeed_div1 div p:last-child{
+	text-align: right;
+	padding-right: 0.1rem;
+}
+.mod_ticket .ticket_time .time_div1 .highspeed_div1 div span{
+	display: inline-block;
+	width: 0.2rem;
+	height: 0.2rem;
+	border:1px solid #666;
+	vertical-align: middle;
+	margin-right:  0.05rem;
+}
+.mod_ticket  .examine{
+	width:90%;
+	margin:0 auto;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	text-align: center;
+	margin-top: 20px;
+	background: #d30775;
+	color:#fff;
+	font-size: 0.18rem;
+	border-radius: 0.1rem;
+	position: relative;
+}
+.mod_ticket  .examine span::before{
+	content: "";
+	position: absolute;
+	top: 21%;
+	left: 38%;
+	width: 0.2rem;
+	height: 0.2rem;
+	background: url("../../images/img2_.png") no-repeat 0% 63%;
+	background-size: 90%;
+}

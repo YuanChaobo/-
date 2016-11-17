@@ -1,0 +1,34 @@
+
+	<div class="pzyr_box">
+		
+		<header>
+			<span></span>
+			<p>驴妈妈品质一日游</p>
+		</header>
+
+		<div class="img">
+			<img src="./images/品质一日游.jpg" alt="">
+		</div>
+
+		<div class="info1">
+			<div class="pinzhiyiriyou"></div>
+
+			<ul>
+				
+				<li ng-repeat="x in arr">
+					<img ng-src={{x.images}} alt="">
+					<p>
+						{{x.name}}
+					</p>
+					<div>
+						<span>抢购价:￥{{x.price}}<label>起/人</label></span>
+						<a href="###">立即抢购</a>
+					</div>
+				</li>
+			</ul>
+
+			<p class="bottomp"><a href="###">点击查看更多 &gt;&gt;</a></p>
+
+		</div>
+
+	</div>
