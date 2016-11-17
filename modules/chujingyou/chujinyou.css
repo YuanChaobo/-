@@ -170,7 +170,6 @@
 	padding: 0.05rem 0.1rem;
 	border-radius: 15px;
 	text-align: center;
-	/*margin-bottom: 0.1rem;*/
 }
 .chujinyou .main2{
 	width: 100%;
@@ -231,7 +230,6 @@
 	text-align: center;
 	line-height: 0.4rem;
 	font-size: 0.18rem;
-
 }
 .chujinyou .Saleabroad{
 	font-size: 0.14rem;
@@ -249,3 +247,4 @@
 .chujinyou .Saleabroad .Saleabroad_d1{
 	color: #d30775;
 }
+

@@ -14,13 +14,8 @@ var app=angular.module("cityList",[]);
 		$scope.getBack=function(){
 			history.back();
 		}
-		// $scope.openClose=function(){
-		// 	// console.log(angular.element(".ctlink"))
-		// 	console.log($(this).find("ul").show())
-		// 	$(this).find("ul").show()
-		// }
 	}])
-	$(".ctlink").on("click",function(){
-		$(this).find("ul").show();
-		console.log("a");
-	})
+	// $(".ctlink").on("click",function(){
+	// 	$(this).find("ul").show();
+	// 	console.log("a");
+	// })

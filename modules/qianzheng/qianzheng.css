@@ -129,8 +129,8 @@ body{
 	line-height: 0.29rem;
 	color: white;
 	text-align: center;
-	top: 33%;
-	left: 22%;
+	top: 35%;
+	left: 24%;
 }
 .qianzheng_box #qz_info ul li em{
 	font-style: normal;
@@ -259,6 +259,7 @@ body{
 	margin: 0.1rem 0;
 	background: white;
 	overflow: hidden;
+	padding-left: 0.1rem;
 	border-bottom: 1px solid #ddd;
 }
 .qianzheng_box #qz_xiangqing>p>span{
@@ -280,6 +281,7 @@ body{
 .qianzheng_box #qz_liucheng{
 	width: 100%;
 	overflow: hidden;
+	margin-bottom: 0.5rem;
 }
 .qianzheng_box #qz_liucheng>p{
 	height: 0.4rem;
@@ -305,8 +307,6 @@ body{
 .qianzheng_box #qz_liucheng ul li span{
 	font-size: 0.12rem;
 }
-
-
 /*固定定位 返回顶部*/
 .qianzheng_box #qz_fixed{
 	position: fixed;
@@ -314,9 +314,10 @@ body{
 	width: 0.5rem;
 	height: 0.5rem;
 	border-radius: 50%;
-	bottom: 1rem;
+	bottom: 1.4rem;
 	right: 0.3rem;
 	opacity: 0.9;
+	display: none;
 }
 .qianzheng_box #qz_fixed a{
 	width: 100%;

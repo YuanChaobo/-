@@ -7,6 +7,7 @@ angular.module('youlun',[])
 		controller:'youlunCtrl'
 	})
 })
+
 .controller('youlunCtrl',['$scope',function($scope){
 	$scope.getback=function(){
 		history.back();

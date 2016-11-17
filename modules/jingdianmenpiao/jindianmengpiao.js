@@ -1,3 +1,4 @@
+
 angular.module('jingdianmenpiao',['me-lazyload'])
 .config(function($stateProvider,$urlRouterProvider){
 	$stateProvider.state('jingdianmenpiao',{

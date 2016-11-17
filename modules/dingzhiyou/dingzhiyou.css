@@ -216,6 +216,7 @@ body{
 	position: fixed;
 	bottom: 0;
 	left: 0;
+	margin-bottom: 0.55rem;
 }
 .dzy_box footer p{
 	width: 50%;

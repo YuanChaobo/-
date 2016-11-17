@@ -11,6 +11,7 @@ angular.module('zhoubianyou',[])
           $http.get('./JSON/zhoubianyou.json').success(function(data){
             $scope.arr = data.data.routeList
           })
+
           $scope.getback=function(){
             history.back();
           }

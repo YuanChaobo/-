@@ -1,15 +1,5 @@
 @charset "UTF-8";
-li{
-	list-style: none;
-}
-a{
-	text-decoration: none;
-}
-*{
-	margin: 0;
-	padding:0;
-	box-sizing: border-box;
-}
+
 .mod_ticket{
 	font-size: 0.16rem;
 }

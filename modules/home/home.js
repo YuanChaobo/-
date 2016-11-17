@@ -33,18 +33,4 @@ angular.module('home',[])
 	    }
 	}
  })
- //   .directive('repeatFinish',function(){
-	//     return {
-	//         link: function(scope,element,attr){
-	//             console.log(scope.$index)
-	//             if(scope.$last == true){
-	//                 console.log('ng-repeat执行完毕')
-	//                 scope.$eval( attr.repeatFinish )
-	//             }
-	//         }
-	//     }
-	// })
-	// controller对应的函数处理函数
-	// $scrope.repeatFinish=function(){
 
-	// }

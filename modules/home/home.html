@@ -14,8 +14,8 @@
 		<!-- 图片轮播插件 -->
 		<div class="swiper-container">
 		    <div class="swiper-wrapper">
-		        <div class="swiper-slide" ng-repeat = "x in arr2" repeat-finish="renderFinish()">
-		        	<img ng-src={{x.large_image}}>
+		        <div class="swiper-slide" ng-repeat = "x in arr2" repeat-finish>
+		        	<img src={{x.large_image}}>
 		        </div>
 		    </div>
 		    <!-- 如果需要分页器 -->
@@ -130,12 +130,25 @@
 		</div>
 		<!-- 小轮播 -->
 		<div class="bo">
-			<p class="bo_p1">
-				<span>HOT</span>抽我，快抽我秋高气爽！
-			</p>
-			<span class="bo_p2">
-				上海迪士尼
-			</span>
+
+			<div>
+				<p class="bo_p1">
+				<span>HOT</span>抽我，快抽我，天天有惊喜！
+				</p>
+				<p class="bo_p1">
+					<span>秒杀</span>金秋出游，速来抢购门票！
+				</p>
+				<p class="bo_p1">
+					<span>hot</span>领800元新手红包，秋高气爽！
+				</p>
+				<p class="bo_p1">
+				<span>HOT</span>抽我，快抽我，天天有惊喜！
+				</p>
+			</div>
+			
+			<p class="bo_p2">上海迪士尼</p>
+			<p class="bo_p2">上海迪士尼</p>
+			<p class="bo_p2">上海迪士尼</p>
 		</div>
 		<!-- 大会场 -->
 		<div class="huichang">
@@ -168,10 +181,12 @@
 			<p>
 				<span>手机专享</span>
 			</p>
+
 			<img lazy-src="./images/1470391082_44765.png">
 			<img lazy-src="./images/1477560428_27109.png">
 			<img lazy-src="./images/1478761657_30573.jpg">
 			<img lazy-src="./images/1478758348_54060.png">
+
 		</div>
 		<!-- 限时抢购 -->
 		<div class="rushpurchase">

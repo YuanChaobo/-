@@ -112,18 +112,19 @@ body{
 .zjy_box #zjy_info .top li{
 	float: left;
 	text-align: center;
-	line-height: 0.56rem;
 	width: 33.3%;
 	background: white;
 	border-right: 1px solid #999;
 }
+.zjy_box #zjy_info .top li a{
+	width: 0.7rem;
+	margin: 0 auto;
+	display: block;
+	padding: 0.17rem 0;
+}
 
 .zjy_box #zjy_info .top .color{
 	color: #d30775;
-	display: block;
-	margin: 0 auto;
-	width: 0.4rem;
-	height: 100%;
 	border-bottom: 2px solid #d30775;
 }
 
@@ -206,6 +207,7 @@ body{
 .zjy_box #zjy_info .all_bottom{
 	height: 0.7rem;
 	padding-top: 0.2rem;
+	margin-bottom: 0.5rem;
 }
 .zjy_box #zjy_info .all_bottom p{
 	width: 1.4rem;
@@ -221,5 +223,6 @@ body{
 	float: left;
 	color: #999;
 }
+
 
 

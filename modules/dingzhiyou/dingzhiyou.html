@@ -8,8 +8,14 @@
 		</header>
 
 		<div id="banner">
-			<div ng-repeat="x in arr2">
-				<img src={{x.image}} alt="">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide" ng-repeat = "x in arr2" repeat-finish>
+						<img ng-src={{x.image}} alt="">
+					</div>
+				</div>
+				<!-- 如果需要分页器 -->
+		    	<div class="swiper-pagination"></div>
 			</div>
 		</div>
 
@@ -59,7 +65,7 @@
 			<ul>
 				<li ng-repeat="x in arr">
 					<a href="###">
-						<img src={{x.image}} alt="">
+						<img lazy-src={{x.image}} alt="">
 						<p>{{x.title}}</p>
 					</a>
 				</li>

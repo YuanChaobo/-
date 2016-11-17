@@ -11,5 +11,4 @@
  		$scope.dianji=function(){
  			history.back();
  		}
-
  	}])

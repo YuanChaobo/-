@@ -21,7 +21,8 @@ var app = angular.module('myApp',['ui.router','angularCSS',
 'dingzhiyou',
 'qianzheng',
 'zijiayou',
-'zhutiyou',
+'zhutiyou'
+
 ]);
 
 app.config(function($stateProvider,$urlRouterProvider){
@@ -29,4 +30,11 @@ app.config(function($stateProvider,$urlRouterProvider){
     $urlRouterProvider.otherwise('/home');
 
 })
+
 lazyLoad.init();
+
+app.controller('myCtrl',['$scope',function($scope){
+
+}])
+
+

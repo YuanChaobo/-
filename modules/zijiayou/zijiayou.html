@@ -7,8 +7,14 @@
 		</header>
 
 		<banner>
-			<div ng-repeat="x in arr2">
-				<img src={{x.large_image}} alt="">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide" ng-repeat = "x in arr2" repeat-finish>
+						<img ng-src={{x.large_image}} alt="">
+					</div>
+				</div>
+				<!-- 如果需要分页器 -->
+		    	<div class="swiper-pagination"></div>
 			</div>
 		</banner>
 
@@ -33,14 +39,14 @@
 
 		<div id="zjy_info">
 			<ul class="top">
-				<li><a class="color" href="###">周末</a></li>
-				<li><a href="###">3小时车程</a></li>
-				<li><a href="###">更远车程</a></li>
+				<li><a class="color">周末</a></li>
+				<li><a>3小时车程</a></li>
+				<li><a>更远车程</a></li>
 			</ul>
 			<ul class="bottom">
 				<li ng-repeat="x in arr">
 					<a href="###">
-						<img src={{x.large_image}} alt="">
+						<img lazy-src={{x.large_image}} alt="">
 						<span>{{x.back_word2}}</span>
 						<p><img src="./images/location.png" alt=""><span>全国</span></p>
 						<label>￥<i>{{x.price}}</i>起</label>
