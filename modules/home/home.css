@@ -474,3 +474,35 @@
 .mod_home .jiekou li p{
 	color: #fff;
 }
+.mod_home .gdjc .piao{
+	font-size: 0;
+	overflow: hidden;
+	width: 100%;
+	background: #fff;
+}
+.mod_home .gdjc .piao li{
+	display: inline-block;
+	font-size: 0.16rem;
+	width: 33.3%;
+	text-align:center;
+}
+.mod_home .gdjc{	
+	width: 100%;
+}
+.mod_home .gdjc li{
+	font-size: 0.18rem;
+	margin-top: 0.1rem;
+	margin-bottom: 0.1rem;
+}
+.mod_home .bian{
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 999;
+	background: #fff;
+}
+.mod_home .bubian{
+	position: initial;
+	left: 0;
+	top: 0;
+}

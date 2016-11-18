@@ -278,6 +278,7 @@
 	width: 100%;
 }
 .zhoubianyou .main_5 .main5_bot{
+
 	width: 100%;
 	padding-left: 0.1rem;
 	padding-right: 0.1rem;
@@ -310,4 +311,25 @@
 }
 .show{
 	display: show;
+}
+.zhoubianyou #topc{
+	font-size: 0;
+	position: fixed;
+	top: 5.5rem;
+	right: 0.2rem;
+	width: 0.6rem;
+	height: 0.6rem;
+    border-radius: 50%;
+    text-align: center;
+    background: #d30775;
+    color: #fff;
+    z-index: 888;
+}
+.zhoubianyou #topc img{
+	width: 40%;
+	margin-top: 0.05rem;
+}
+.zhoubianyou #topc p{
+	color: #fff;
+	font-size: 0.18rem;
 }

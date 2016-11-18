@@ -1,4 +1,3 @@
-
 angular.module('home',['me-lazyload'])
     .config(function($stateProvider,$urlRouterProvider){
         $stateProvider.state('home',{
@@ -43,8 +42,7 @@ angular.module('home',['me-lazyload'])
           }
      }])
       
-     
-
+    
     //自定义指令
   .directive('repeatFinish',function(){
 	    return {
@@ -62,3 +60,14 @@ angular.module('home',['me-lazyload'])
 	    }
 	}
  })
+      //实现动态显示
+     $(function(){
+      $(window).on('scroll',function(){
+        if($('body').scrollTop() >= 1565){
+          $('.gdjc .piao').addClass('bian');
+        }
+        if($('body').scrollTop() < 1555){
+          $('.gdjc .piao').removeClass('bian');
+        }
+      }) 
+    })

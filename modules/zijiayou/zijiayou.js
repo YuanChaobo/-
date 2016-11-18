@@ -1,3 +1,4 @@
+
 angular.module('zijiayou',['me-lazyload'])
     .config(function($stateProvider,$urlRouterProvider){
         $stateProvider.state('zijiayou',{
@@ -46,3 +47,4 @@ angular.module('zijiayou',['me-lazyload'])
     }
   }
 })
+

@@ -17,7 +17,20 @@ angular.module('jingdianmenpiao',['me-lazyload'])
 	}),
 	$http.get('./JSON/jingdianmenpiaoul.json').success(function(data){
 		$scope.arr3 = data.datas[0].infos
-	})
+	}),
+	  //回到顶部效果
+          $('.jingdianmenpiao #topc').click(function(){
+            $("body").animate({scrollTop:0},200);
+               return false;
+          });
+          $(window).scroll(function(){
+            var obj=$('.jingdianmenpiao #topc');
+            if(obj.offset().top>600){
+                obj.show();
+            }else{
+                obj.hide();
+            }
+          });
 }])
 //图片轮播
 .directive('repeatFinisf',function(){
@@ -36,3 +49,4 @@ angular.module('jingdianmenpiao',['me-lazyload'])
         }
 	}
 })
+

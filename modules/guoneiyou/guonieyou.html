@@ -2,14 +2,16 @@
 	<div class="guonieyou">
 	  <div id="myTop"> 	
 		<header class="top">
-			<div class="left" ng-click="getback()">
-				<img src="images/jdmc_topleft.png">
-			</div>
+			<a ui-sref = "home">
+				<div class="left" ng-click="getback()">
+					<img src="images/jdmc_topleft.png">
+				</div>
+			</a>
 			<div class="center">
 				<p>国内游</p>
 			</div>
 			<div class="right">
-				<img src="images/jdmc_topRight1.png" class="img2">
+				<a ui-sref="home"><img src="images/jdmc_topRight1.png" class="img2"></a>
 				<img src="images/jdmc_topRight2.png" class="img1">
 			</div>
 		</header>
@@ -19,9 +21,15 @@
 			</div>
 		</div>
 	  </div>
-		<div id="banner">
-			<img src="images/gny_banner.jpg">
-		</div>
+	  <div class="swiper-container">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide" ng-repeat = "x in arr3" repeat-finish>
+		        	<img src={{x.large_image}}>
+		        </div>
+		    </div>
+		    <!-- 如果需要分页器 -->
+		    <div class="swiper-pagination"></div>		    
+      </div>
 		<div id="main">
 			<div class="main1">
 				<ul class="u1">
@@ -127,24 +135,24 @@
 				<div class="main3_2">
 					<span class="sp1"><img src="images/gny_main2.jpg"></span>
 					<span class="sp2"><img src="images/gny_main3.jpg"></span>
-				</div>
+				</div>	 
 			</div>
 			<div class="main4">
 				<ul class="ul1">
-					<li class="cilck_style">
-						精选根由团
+					<li class="cilck_style li1_1" ui-sref = '.li1_1'>
+						<a href="">精选跟团游</a>
 					</li>
-					<li>
-						精选自由行
+					<li class="li1_2" ui-sref ='.li1_2'>
+						<a herf="">精选自由行</a>
 					</li>
-					<li>
-						精选当地游
+					<li class="li1_3" ui-sref = '.li1_3'>
+						<a href="">精选当地游</a>
 					</li>
 				</ul>
 				<ul class="ul2">
 					<li ng-repeat = "x in arr">
-						<div class="top1">					
-							<img src={{x.images}}>
+						<div class="top1">		
+			    			<img lazy-src={{x.images}}>
 						</div>
 						<div class="bot">
 							<h3>{{x.name}}</h3>
@@ -154,9 +162,15 @@
 						<span class="spa2">￥{{x.price}}</span>
 					</li>
 				</ul>
+			<div ui-view></div>
 			</div>
 		</div>
 		<div id="footer">
 			数据已全部加载完成
+		</div>
+
+		<div id="topc" style="display: none;">
+			<img src="./images/向上.png">
+			<p>顶部</p>
 		</div>
 	</div>

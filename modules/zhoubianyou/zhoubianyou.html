@@ -145,7 +145,8 @@
 	  	<div class="main_4">
 	  	 <ul>
 	  		<li ng-repeat = "x in arr2">
-	  			<img ng-src={{x.large_image}}>
+
+	  			<img lazy-src={{x.large_image}}>
 	  			<p>{{x.title}}</p>
 	  		</li>
 	  	  </ul>
@@ -164,5 +165,10 @@
 	 </div>
 	  <div id="footer">
 	  	已经加载全部
+	  </div>
+
+	  <div id="topc" style="display: none;">
+			<img src="./images/向上.png">
+			<p>顶部</p>
 	  </div>
 	</div>

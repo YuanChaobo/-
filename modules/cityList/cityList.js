@@ -1,8 +1,8 @@
 
 var app=angular.module("cityList",[]);
 	app.config(function($stateProvider){
-		$stateProvider.state('CityList',{
-			url:'/CityList',
+		$stateProvider.state('cityList',{
+			url:'/cityList',
 			templateUrl:'./modules/cityList/cityList.html',
 			controller:'IndexCity',
 			css:"./modules/cityList/cityList.css"
@@ -16,4 +16,3 @@ var app=angular.module("cityList",[]);
 			history.back();
 		}
 	}])
-

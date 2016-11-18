@@ -19,6 +19,7 @@
 			</div>
 		</div>
 	  </div>
+<<<<<<< HEAD
 		<div id="banner">
 			<img lazy-src="images/jdmp_tp.jpg">
 		</div>
@@ -29,6 +30,24 @@
 				</li>
 				<li class="li2">
 					<p><img lazy-src="images/jdmp_icon2.png"><span>周边城市</span></p>
+=======
+	  <div class="swiper-container">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide" ng-repeat = "x in arr3" repeat-finish>
+		        	<img src={{x.large_image}}>
+		        </div>
+		    </div>
+		    <!-- 如果需要分页器 -->
+		    <div class="swiper-pagination"></div>		    
+	  </div>
+		<div id="nav">
+			<ul>
+				<li class="li1">
+					<p><img src="images/jdmp_icon1.png"><span>上海景点</span></p>
+				</li>
+				<li class="li2">
+					<p><img src="images/jdmp_icon2.png"><span>周边城市</span></p>
+>>>>>>> origin/dev1
 				</li>
 			</ul>
 		</div>
@@ -71,9 +90,13 @@
 			</div>
 		</div>
 		<div id="footer">
-			<p><img lazy-src="images/jqmp_foot.png">境外门票<span>查看更多境外门票</span><i class="youji-more"></i></p>
+			<p><img src="images/jqmp_foot.png">境外门票<span>查看更多境外门票</span><i class="youji-more"></i></p>
 		</div>
 		<div id="footer_2">
-			<img lazy-src="images/jqmphome-footer.png">
+			<img src="images/jqmphome-footer.png">
 		</div>
+		<div id="topc" style="display: none;">
+			<img src="./images/向上.png">
+			<p>顶部</p>
+	  </div>
 	</div>

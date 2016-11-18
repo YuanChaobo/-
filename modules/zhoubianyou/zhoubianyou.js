@@ -9,9 +9,11 @@ angular.module('zhoubianyou',['me-lazyload'])
         })
     })
     .controller('zhoubianyouCtrl',['$scope','$http',function($scope,$http){
+
            $scope.getback=function(){
               history.back();
           }
+
           $http.get('./JSON/zhoubianyou.json').success(function(data){
             $scope.arr = data.data.routeList
             }),
@@ -39,6 +41,20 @@ angular.module('zhoubianyou',['me-lazyload'])
           $("#main .main_2").hide();
           $("#main .main_22").show();
         })
+
+           //回到顶部效果
+          $('.zhoubianyou #topc').click(function(){
+            $("body").animate({scrollTop:0},200);
+               return false;
+          });
+          $(window).scroll(function(){
+            var obj=$('.zhoubianyou #topc');
+            if(obj.offset().top>600){
+                obj.show();
+            }else{
+                obj.hide();
+            }
+          });
     }])
     //图片轮播
     .directive('repeatFinisf',function(){
@@ -57,3 +73,4 @@ angular.module('zhoubianyou',['me-lazyload'])
         }
       }
     })
+

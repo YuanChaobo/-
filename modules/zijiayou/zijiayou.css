@@ -112,6 +112,7 @@ body{
 .zjy_box #zjy_info .top li{
 	float: left;
 	text-align: center;
+	line-height: 0.56rem;
 	width: 33.3%;
 	background: white;
 	border-right: 1px solid #999;
@@ -208,6 +209,7 @@ body{
 	height: 0.7rem;
 	padding-top: 0.2rem;
 	margin-bottom: 0.5rem;
+
 }
 .zjy_box #zjy_info .all_bottom p{
 	width: 1.4rem;
@@ -223,3 +225,4 @@ body{
 	float: left;
 	color: #999;
 }
+

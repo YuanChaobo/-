@@ -291,3 +291,24 @@
 	top: 0;
 	background: #f8f8f8;
 }
+.jingdianmenpiao #topc{
+	font-size: 0;
+	position: fixed;
+	top: 5.5rem;
+	right: 0.2rem;
+	width: 0.6rem;
+	height: 0.6rem;
+    border-radius: 50%;
+    text-align: center;
+    background: #d30775;
+    color: #fff;
+    z-index: 888;
+}
+.jingdianmenpiao #topc img{
+	width: 40%;
+	margin-top: 0.05rem;
+}
+.jingdianmenpiao #topc p{
+	color: #fff;
+	font-size: 0.18rem;
+}

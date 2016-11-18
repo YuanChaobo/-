@@ -51,9 +51,12 @@ body{
 	margin-bottom: 0.75rem;
 }
 .mudidi #main>.left{
+	height: 5.3rem;
 	width: 22%;
 	float: left;
-	overflow: scroll;
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 5.5rem;
 }
 .mudidi #main>.left>ul{
 	width: 100%;
@@ -84,9 +87,17 @@ body{
 	display: block;
 }
 .mudidi #main>.right{
+	right: 0;
+ 	bottom: 0;
+ 	top: 0;
+	box-sizing: border-box;
 	width: 76%;
 	float: right;
-	overflow: scroll;
+	overflow-x: hidden;
+	overflow-y: auto;
+	position: absolute;
+	left: 24%;
+	margin-top: 0.3rem;
 }
 .mudidi #main>.right>div{
 	width: 100%;
@@ -138,96 +149,3 @@ body{
     bottom: 0.08rem;
     left: 0.03rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

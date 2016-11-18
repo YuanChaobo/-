@@ -14,9 +14,15 @@
 			</div>
 		</header>
 	  </div>
-	  <div id="banner">
-	  	<img src="images/djjd_banner.jpg">
-	  </div>
+	  <div class="swiper-container">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide" ng-repeat = "x in arr3" repeat-finish>
+		        	<img src={{x.large_image}}>
+		        </div>
+		    </div>
+		    <!-- 如果需要分页器 -->
+		    <div class="swiper-pagination"></div>		    
+		</div>
 	  <div id="main1">
 	  	<p><span>目的地</span>上海</p>
 	  	<div class="right">
@@ -66,49 +72,27 @@
 	  <div id="main8">
 	  	<p><span class="main_8s1">特卖</span><span class="main_8s2">每周跟新</span><a href="##">全部特卖</a></p>
 	  	<ul>
-	  		<li>
-	  			<img src="images/djjd_main3.jpg">
-	  			<span class="main8_p1">￥488起</span>
-	  			<span class="main8_p2">安吉美称.竹子酒店</span>
+	  		<li ng-repeat = 'x in arr'>
+	  			<img lazy-src={{x.large_image}}>
+	  			<span class="main8_p1">￥{{x.price}}</span>
+	  			<span class="main8_p2">{{x.title}}</span>
 	  		</li>
-	  		<li>
-	  			<img src="images/djjd_main3.jpg">
-	  			<span class="main8_p1">￥488起</span>
-	  			<span class="main8_p2">安吉美称.竹子酒店</span>
-	  		</li>
-	  		<li>
-	  			<img src="images/djjd_main3.jpg">
-	  			<span class="main8_p1">￥488起</span>
-	  			<span class="main8_p2">安吉美称.竹子酒店</span>
-	  		</li>
-	  		<li>
-	  			<img src="images/djjd_main3.jpg">
-	  			<span class="main8_p1">￥488起</span>
-	  			<span class="main8_p2">安吉美称.竹子酒店</span>
-	  		</li>
-	  		<li>
-	  			<img src="images/djjd_main3.jpg">
-	  			<span class="main8_p1">￥488起</span>
-	  			<span class="main8_p2">安吉美称.竹子酒店</span>
-	  		</li>
-	  		<li>
-	  			<img src="images/djjd_main3.jpg">
-	  			<span class="main8_p1">￥488起</span>
-	  			<span class="main8_p2">安吉美称.竹子酒店</span>
-	  		</li>
-	  		<li>
-	  			<img src="images/djjd_main3.jpg">
-	  			<span class="main8_p1">￥488起</span>
-	  			<span class="main8_p2">安吉美称.竹子酒店</span>
-	  		</li>
-	  		<li>
-	  			<img src="images/djjd_main3.jpg">
-	  			<span class="main8_p1">￥488起</span>
-	  			<span class="main8_p2">安吉美称.竹子酒店</span>
+	  	</ul>
+	  <div id="main12">
+	  	<p><span class="main_8s1">热门推荐</span><span class="main_8s2">说走就走的旅行</span></p>
+	  	<ul>
+	  		<li ng-repeat = 'x in arr1'>
+	  			<img lazy-src={{x.large_image}}>
+	  			<span class="main8_p1">￥{{x.price}}</span>
+	  			<span class="main8_p2">{{x.title}}</span>
 	  		</li>
 	  	</ul>
 	  </div>
 	  <div id="footer">
 	  	已加载全部内容
+	  </div>
+	  <div id="topc" style="display: none;">
+			<img src="./images/向上.png">
+			<p>顶部</p>
 	  </div>
 	</div>

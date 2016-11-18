@@ -94,11 +94,19 @@
 	padding-left: 0.1rem;
 	color: #ccc;
 }
+<<<<<<< HEAD
 .guonieyou #banner{
 	width: 100%;
 	height: 1.722rem;
 }
 .guonieyou #banner img{
+=======
+.guonieyou .swiper-slide{
+	width: 100%;
+	height: 1.722rem;
+}
+.guonieyou .swiper-slide img{
+>>>>>>> origin/dev1
 	width: 100%;
 }
 .guonieyou #main .main1{
@@ -307,6 +315,65 @@
 	color: #fff;
 	border-radius: 15px;
 }
+<<<<<<< HEAD
+=======
+.guonieyou .hide{
+	display: none;
+}
+.guonieyou .show{
+	display: show;
+}
+.guonieyou #main .main4>div li{
+	position: relative;
+	margin-top: 0.1rem;
+}
+.guonieyou #main .main4>div li .top1{
+	width: 100%;
+	height: 1.82rem;
+}
+.guonieyou #main .main4>div li .top1 img{
+	width: 100%;
+	height: 100%;
+}
+.guonieyou #main .main4>div li .bot{
+	font-size: 0.18rem;
+}
+.guonieyou #main .main4>div li .spa1{
+	position: absolute;
+	left: 0.1rem;
+	top: 0.1rem;
+	font-size: 0.12rem;
+	color: #fff;
+	padding: 0.08rem;
+	background: #000;
+	opacity: 0.5;
+}
+.guonieyou #main .main4>div li .spa2{
+	position: absolute;
+    right: 0.0rem;
+    top: 1.1rem;
+    font-size: 0.2rem;
+    color: #fff;
+    padding: 0.02rem 0.05rem;
+    background: #ff7201;
+    border-radius: 0.05rem 0 0 0.05rem;
+}
+.guonieyou #main .main4>div li h3{
+	margin-top: 0.05rem;
+	margin-bottom: 0.05rem;
+	color: #333;
+	padding-left: 0.1rem;
+	font-size: 0.16rem;
+	font-weight: normal;
+}
+.guonieyou #main .main4>div li p{
+	padding-left: 0.1rem;
+	padding-right: 0.1rem;
+	color: #aaa;
+	font-size: 0.14rem;
+}
+/*ul2*/
+>>>>>>> origin/dev1
 .guonieyou #main .main4 .ul2 li{
 	position: relative;
 	margin-top: 0.1rem;
@@ -362,4 +429,28 @@
 	line-height: 0.6rem;
 	text-align: center;
 	font-size: 0.16rem;
+<<<<<<< HEAD
+=======
+}
+.guonieyou #topc{
+	font-size: 0;
+	position: fixed;
+	top: 5.5rem;
+	right: 0.2rem;
+	width: 0.6rem;
+	height: 0.6rem;
+    border-radius: 50%;
+    text-align: center;
+    background: #d30775;
+    color: #fff;
+    z-index: 888;
+}
+.guonieyou #topc img{
+	width: 40%;
+	margin-top: 0.05rem;
+}
+.guonieyou #topc p{
+	color: #fff;
+	font-size: 0.18rem;
+>>>>>>> origin/dev1
 }
